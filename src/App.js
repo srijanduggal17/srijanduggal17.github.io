@@ -1,10 +1,10 @@
 import {
 	BrowserRouter as Router,
 	Switch,
-	Route,
-	Link
+	Route
 } from "react-router-dom";
 import './App.css';
+import Header from './Header.js';
 import AboutMe from './AboutMe.js';
 import Projects from './Projects.js';
 import ContactMe from './ContactMe.js';
@@ -13,11 +13,7 @@ function App() {
 	return (
 		<Router>
 			<div>
-				<nav><ul>
-					<li><Link to="/projects">Projects</Link></li>
-					<li><Link to="/">About Me</Link></li>
-					<li><Link to="/contact">Contact Me</Link></li>
-				</ul></nav>
+				<Header />
 
 				{/* A <Switch> looks through its children <Route>s and
 				renders the first one that matches the current URL. */}
