@@ -8,6 +8,7 @@ import Header from './Header.js';
 import AboutMe from './AboutMe.js';
 import Projects from './Projects.js';
 import ContactMe from './ContactMe.js';
+import { projectInfo } from './project-data.js';
 
 function App() {
 	const pageStyle = {
@@ -18,10 +19,15 @@ function App() {
 		<Router>
 			<div style = {pageStyle}>
 				<Header />
-
-				{/* A <Switch> looks through its children <Route>s and
-				renders the first one that matches the current URL. */}
 				<Switch>
+					{projectInfo.map(x => {
+						return (
+							<Route path={`/projects/${x.projectURL}`}>
+								{x.projectPage}
+							</Route>
+						)
+					})}
+
 					<Route path="/projects">
 						<Projects />
 					</Route>
