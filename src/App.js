@@ -10,9 +10,13 @@ import Projects from './Projects.js';
 import ContactMe from './ContactMe.js';
 
 function App() {
+	const pageStyle = {
+		minHeight: '100vh'
+	};
+
 	return (
 		<Router>
-			<div>
+			<div style = {pageStyle}>
 				<Header />
 
 				{/* A <Switch> looks through its children <Route>s and
@@ -24,7 +28,7 @@ function App() {
 					<Route path="/contact">
 						<ContactMe />
 					</Route>
-					<Route path="/">
+					<Route exact path="/">
 						<AboutMe />
 					</Route>
 				</Switch>
