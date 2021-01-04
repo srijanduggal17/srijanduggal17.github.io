@@ -5,8 +5,8 @@ export const projectInfo = [
 	{
 		imgPath: '2048 Game.png',
 		title: '2048 Playing Agent',
-		desc: 'Bot that plays 2048: human-based logic and reinforcement learning',
-		timeline: 'May-June 2019',
+		desc: 'Bot that plays 2048 using human-based logic & reinforcement learning',
+		timeline: 'June-July 2020',
 		skills: ['web scraping', 'reinforcement learning'],
 		projectURL: '2048Agent',
 		projectPage: <Game2048 />

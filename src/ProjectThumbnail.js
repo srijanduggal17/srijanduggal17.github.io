@@ -15,8 +15,8 @@ export default function ProjectThumbnail(props) {
 				<div className="thumbtext">
 					<p className="text-center display-6">{props.title}</p>
 					<p className="text-center">{props.desc}</p>
-					<p className="text-end">{props.timeline}</p>
-					<p className="bottom-align-text skills">{props.skills.join(', ')}</p>
+					<p className="text-end fst-italic">{props.timeline}</p>
+					<p className="bottom-align-text skills fw-bold">{props.skills.join(', ')}</p>
 				</div>
 			</Link>
 		</div>

@@ -16,7 +16,8 @@ export default function Agent2048(props) {
 	};
 
 	const firstPicStyle = {
-		maxHeight: '60vh'
+		maxHeight: '60vh',
+		maxWidth: '100%'
 	};
 
 	const firstRowTextStyle = {
@@ -42,7 +43,7 @@ export default function Agent2048(props) {
 			<p className="text-center display-4 pt-2 pb-6">2048 Playing Agent</p>
 			<div className="w-100 container-fluid">
 				<div className="row" style={firstRowStyle}>
-					<div className="col-3">
+					<div className="col-sm-3">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/2048/2048 Game.png" style={firstPicStyle}/>
 					</div>
 					<div className="col text-center fs-4 fw-bold d-flex align-items-center" style={firstRowTextStyle}>
@@ -53,7 +54,7 @@ export default function Agent2048(props) {
 					</div>
 				</div>
 				<div className="row" style={secRowStyle}>
-					<div className="col text-center d-flex align-items-center" style={secRowTextStyle}>
+					<div className="col text-start fs-5 d-flex align-items-center pt-4" style={secRowTextStyle}>
 						<p>When I was in high school, I used to play this game.
 						The way it works is you have a tile area and the goal is
 						to create a 2048 tile. You can press the left/right/up/down arrow keys,
@@ -64,17 +65,17 @@ export default function Agent2048(props) {
 						a 2 or 4 tile is randomly added to the board.
 						</p>
 					</div>
-					<div className="col-4" >
+					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block" src='https://thumbs.gfycat.com/ImpassionedShadyFlounder-small.gif' style={firstPicStyle}/>
 					</div>
 				</div>
 				<div className="row" style={thirdRowStyle}>
-					<div className="col" >
+					<div className="col-sm-6">
 						<iframe className="pt-4 mx-auto pb-4 d-block"
 								src='https://www.youtube.com/embed/H8oM8vUvROc'
 								style={thirdPicStyle}/>
 					</div>
-					<div className="col text-center d-flex align-items-center" style={thirdRowTextStyle}>
+					<div className="col text-start d-flex fs-5 align-items-center pt-4" style={thirdRowTextStyle}>
 						<p>
 						This was a common game amongst kids in my school, and after
 						learning about reinforcement learning during my Deep Learning class,
@@ -93,8 +94,8 @@ export default function Agent2048(props) {
 					</div>
 				</div>
 				<div className="row" style={fourthRowStyle}>
-					<div className="col text-center">
-						<p className="w-75 mx-auto pt-4">
+					<div className="col text-start fs-5">
+						<p className="w-100 mx-auto pt-4">
 						For the Reinforcement Learning agent, I used some
 						convolution layers and a feed-forward neural network. For the reward
 						function, I used the score and tried training the agent. After training
@@ -113,12 +114,12 @@ export default function Agent2048(props) {
 						</p>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col text-center">
-						<p>GIF credits: <a href='https://gfycat.com/impassionedshadyflounder'>https://gfycat.com/impassionedshadyflounder</a></p>
-					</div>
-					<div className="col text-center">
+				<div className="row fs-5">
+					<div className="col text-center pt-4">
 						<p>The game can be found at <a href='https://play2048.co/'>https://play2048.co/</a></p>
+					</div>
+					<div className="col-sm-6 text-center pt-4 text-break">
+						<p>GIF credits: <a href='https://gfycat.com/impassionedshadyflounder'>https://gfycat.com/impassionedshadyflounder</a></p>
 					</div>
 				</div>
 			</div>
