@@ -1,3 +1,6 @@
+import Subheading from '../Components/Subheading.js';
+import FullRowText from '../Components/FullRowText.js';
+
 export default function KneeExo(props) {
 	const firstRowStyle = {
 		backgroundColor: 'white'
@@ -87,8 +90,8 @@ export default function KneeExo(props) {
 						</p>
 					</div>
 				</div>
+				<Subheading>User Interface</Subheading>
 				<div className="row" style={firstRowStyle}>
-					<p className="pt-4 pb-4 text-center display-5">User Interface</p>
 					<div className="col text-start d-flex fs-5 align-items-center pt-4" style={fourthRowTextStyle}>
 						<p>
 						The user can control the device – turning the controller on, calibrating the controller, and setting the device to provide assistance – all using the simple handle with LED feedback. We designed a PCB for easy mounting of the electronics and a handle to house it.
@@ -98,8 +101,8 @@ export default function KneeExo(props) {
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Nextflex Handle.png" style={firstPicStyle}/>
 					</div>
 				</div>
+				<Subheading>Hardware</Subheading>
 				<div className="row">
-					<p className="pt-4 pb-4 text-center display-5">Hardware</p>
 					<div className="col-sm-6 d-flex align-items-center">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Nextflex Hardware.png" style={secondPicStyle}/>
 					</div>
@@ -120,12 +123,9 @@ export default function KneeExo(props) {
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/RPi Shield Prototype.jpg" style={secondPicStyle}/>
 					</div>
 				</div>
-				<div className="row">
-					<div className="mx-auto col-11 text-start d-flex fs-5 align-items-center pt-4">
-						<p>Once an initial circuit was functional on a breadboard, we designed a PCB shield to sit on top of the Raspberry Pi for a compact profile. The PCB was designed in Autodesk Eagle and then fabricated in The Hive makerspace at Georgia Tech. After we tested the PCB shield using a function generator/oscilloscope and then on the actual Raspberry Pi, we ordered a more professional board from OshPark. Finally, I designed a case for the Raspberry Pi and shield in SolidWorks and 3D printed it.
-						</p>
-					</div>
-				</div>
+				<FullRowText>
+				Once an initial circuit was functional on a breadboard, we designed a PCB shield to sit on top of the Raspberry Pi for a compact profile. The PCB was designed in Autodesk Eagle and then fabricated in The Hive makerspace at Georgia Tech. After we tested the PCB shield using a function generator/oscilloscope and then on the actual Raspberry Pi, we ordered a more professional board from OshPark. Finally, I designed a case for the Raspberry Pi and shield in SolidWorks and 3D printed it.
+				</FullRowText>
 				<div className="row">
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/RPi Shield.png" style={secondPicStyle}/>
@@ -134,14 +134,10 @@ export default function KneeExo(props) {
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/RPi Shield and Case.jpg" style={secondPicStyle}/>
 					</div>
 				</div>
-				<div className="row">
-					<p className="pt-4 pb-4 text-center display-5">Device Logic and Framework</p>
-					<div className="mx-auto col-11 text-start d-flex fs-5 align-items-center pt-4">
-						<p>
-						The logic for the different operating modes of the device (powered on, calibrating, calibrated, and assisting) and the controller was implemented on the Raspberry Pi using Python and ROS. This was my first exposure to ROS, and while I did not lead that aspect of the project, I learned about its purpose, capabilities, and how to use it. A diagram for the ROS nodes we used as well as a state transition diagram for the device are shown.
-						</p>
-					</div>
-				</div>
+				<Subheading>Device Logic and Framework</Subheading>
+				<FullRowText>
+				The logic for the different operating modes of the device (powered on, calibrating, calibrated, and assisting) and the controller was implemented on the Raspberry Pi using Python and ROS. This was my first exposure to ROS, and while I did not lead that aspect of the project, I learned about its purpose, capabilities, and how to use it. A diagram for the ROS nodes we used as well as a state transition diagram for the device are shown.
+				</FullRowText>
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/State Machine.png" style={secondPicStyle}/>
@@ -152,26 +148,18 @@ export default function KneeExo(props) {
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/ROS Nodes.png" style={thirdPicStyle}/>
 					</div>
 				</div>
+				<Subheading>Proportional Myoelectric Controller Implementation</Subheading>
+				<FullRowText>
+				The actual controller that determined the commanded assistance torque was a Proportional Myoelectric Controller, adapted from Koller et al[1]. The raw EMG signal is noisy and we wanted the torque profile to be proportional to the overall EMG profile. To create the EMG profile, at any clock cycle of the controller, the RMS of a backward-looking window of the EMG signal was calculated. This created a smooth time series with which we could command the device. The RMS EMG at each clock cycle was compared to the maximum RMS EMG value during the calibration phase to produce the desired torque output (See Equation 1). Essentially, the torque command is a fraction of the device’s maximum torque, and this fraction is determined by the current EMG signal.
+				</FullRowText>
 				<div className="row">
-					<p className="pt-4 pb-4 text-center display-5">Proportional Myoelectric Controller Implementation</p>
-					<div className="col mx-auto col-11 text-start d-flex fs-5 align-items-center pt-4">
-						<p>
-						The actual controller that determined the commanded assistance torque was a Proportional Myoelectric Controller, adapted from Koller et al[1]. The raw EMG signal is noisy and we wanted the torque profile to be proportional to the overall EMG profile. To create the EMG profile, at any clock cycle of the controller, the RMS of a backward-looking window of the EMG signal was calculated. This created a smooth time series with which we could command the device. The RMS EMG at each clock cycle was compared to the maximum RMS EMG value during the calibration phase to produce the desired torque output (See Equation 1). Essentially, the torque command is a fraction of the device’s maximum torque, and this fraction is determined by the current EMG signal.
-						</p>
-					</div>
-				</div>
-				<div className="row">
-					<div className="mx-auto col-6">
+					<div className="mx-auto col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Controller Eqn.png" style={firstPicStyle}/>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col mx-auto col-11 text-start d-flex fs-5 align-items-center pt-4">
-						<p>
-						A time series example of what this looks like is shown. This was from an offline computation of the output torque, but the real-time result is the same.
-						</p>
-					</div>
-				</div>
+				<FullRowText>
+				A time series example of what this looks like is shown. This was from an offline computation of the output torque, but the real-time result is the same.
+				</FullRowText>
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Controller Offline.png" style={secondPicStyle}/>
@@ -182,14 +170,10 @@ export default function KneeExo(props) {
 						</p>
 					</div>
 				</div>
-				<div className="row">
-					<p className="pt-4 pb-4 text-center display-5">Calibration</p>
-					<div className="col mx-auto col-11 text-start d-flex fs-5 align-items-center pt-4">
-						<p>
-						The purpose of the calibration phase is to calculate two quantities: the threshold RMS EMG level, and the maximum RMS EMG level. After the user presses the calibration button, they must walk for a short period of time during which the device is recording the device data. This is where the knee encoder is used. We used the fact that walking is a periodic motion to detect a fixed number of gait cycles before computing the two quantities. The encoder signal has some drift, but we found that a peak detection function from the scipy library was sufficient to detect local minima in the series. Once 7 gait cycles had passed, we computed the RMS EMG profile and calculated the maximum (for use in the torque command equation) and the 10th percentile (for use as a threshold to eliminate noise when the muscle is resting).
-						</p>
-					</div>
-				</div>
+				<Subheading>Calibration</Subheading>
+				<FullRowText>
+					The purpose of the calibration phase is to calculate two quantities: the threshold RMS EMG level, and the maximum RMS EMG level. After the user presses the calibration button, they must walk for a short period of time during which the device is recording the device data. This is where the knee encoder is used. We used the fact that walking is a periodic motion to detect a fixed number of gait cycles before computing the two quantities. The encoder signal has some drift, but we found that a peak detection function from the scipy library was sufficient to detect local minima in the series. Once 7 gait cycles had passed, we computed the RMS EMG profile and calculated the maximum (for use in the torque command equation) and the 10th percentile (for use as a threshold to eliminate noise when the muscle is resting).
+				</FullRowText>
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Encoder vs Time.png" style={firstPicStyle}/>
@@ -198,12 +182,9 @@ export default function KneeExo(props) {
 						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Threshold Ex.png" style={firstPicStyle}/>
 					</div>
 				</div>
-
-				<div className="row fs-5">
-					<div className="col text-center pt-4">
-						<p>1. Koller, J.R., Jacobs, D.A., Ferris, D.P. et al. Learning to walk with an adaptive gain proportional myoelectric controller for a robotic ankle exoskeleton. J NeuroEngineering Rehabil 12, 97 (2015). https://doi.org/10.1186/s12984-015-0086-5</p>
-					</div>
-				</div>
+				<FullRowText>
+					1. Koller, J.R., Jacobs, D.A., Ferris, D.P. et al. Learning to walk with an adaptive gain proportional myoelectric controller for a robotic ankle exoskeleton. J NeuroEngineering Rehabil 12, 97 (2015). https://doi.org/10.1186/s12984-015-0086-5
+				</FullRowText>
 			</div>
 			<p></p>
 		</div>
