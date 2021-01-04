@@ -82,7 +82,7 @@ export default function KneeExo(props) {
 				</div>
 				<div className="row" style={secRowStyle}>
 					<div className="col-sm-6">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Nextflex Device.png" style={firstPicStyle}/>
+						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/NextFlex Device.png" style={firstPicStyle}/>
 					</div>
 					<div className="col text-start d-flex fs-5 align-items-center pt-4" style={secRowTextStyle}>
 						<p>
@@ -98,13 +98,13 @@ export default function KneeExo(props) {
 						</p>
 					</div>
 					<div className="col-sm-6 d-flex align-items-center">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Nextflex Handle.png" style={firstPicStyle}/>
+						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/NextFlex Handle.png" style={firstPicStyle}/>
 					</div>
 				</div>
 				<Subheading>Hardware</Subheading>
 				<div className="row">
 					<div className="col-sm-6 d-flex align-items-center">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/Nextflex Hardware.png" style={secondPicStyle}/>
+						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/NextFlex Hardware.png" style={secondPicStyle}/>
 					</div>
 					<div className="col text-start d-flex fs-5 align-items-center pt-4" style={fourthRowTextStyle}>
 						<p>
