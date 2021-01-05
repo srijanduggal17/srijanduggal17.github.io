@@ -45,10 +45,19 @@ export const projectInfo = [
 	{
 		imgPath: 'Insole.jpg',
 		title: 'Instrumented Insole',
-		desc: 'I worked on manufacturing, improving and testing shoe insoles with pressure sensors ',
+		desc: 'Worked on manufacturing, improving and testing shoe insoles with pressure sensors ',
 		timeline: 'Aug-Dec 2019',
 		skills: ['sensors', 'LabVIEW', 'MATLAB'],
 		projectURL: 'insole',
+		projectPage: <InstrumentedInsole />
+	},
+	{
+		imgPath: 'ME2110.jpg',
+		title: 'Autonomous Robot for Creative Decisions & Design Course',
+		desc: 'We designed, built, and tested an autonomous robot for our course competitiong',
+		timeline: 'Jan-May 2019',
+		skills: ['3D printing', 'mechatronics', 'LabVIEW'],
+		projectURL: 'me2110',
 		projectPage: <InstrumentedInsole />
 	}
 ];

@@ -31,7 +31,7 @@ export default function HipExoHardware(props) {
 						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/Backpack CAD SldWrks.png' style={firstPicStyle}/>
 					</div>
 					<div className="col" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/Backpack CAD.jpg' style={firstPicStyle}/>
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/Backpack CAD.JPG' style={firstPicStyle}/>
 					</div>
 				</div>
 				<FullRowText>
