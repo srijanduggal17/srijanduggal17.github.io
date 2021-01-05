@@ -1,5 +1,6 @@
 import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
+import ProjectHeading from '../Components/ProjectHeading.js';
 
 export default function KneeExo(props) {
 	const firstRowStyle = {
@@ -54,10 +55,9 @@ export default function KneeExo(props) {
 		color: 'black'
 	};
 
-
 	return (
 		<div>
-			<p className="text-center display-4 pt-2 pb-6">Knee Exoskeleton Controller</p>
+			<ProjectHeading>Knee Exoskeleton Controller</ProjectHeading>
 			<div className="w-100 container-fluid">
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-3">
