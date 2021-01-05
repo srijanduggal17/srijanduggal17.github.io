@@ -9,7 +9,7 @@ export default function ProjectThumbnail(props) {
 	};
 
 	return (
-		<div className="col thumbcard">
+		<div className="col-sm-3 pt-4 thumbcard">
 			<Link to={`${url}/${props.projectURL}`}>
 				<img src={`thumbnails/${props.imgPath}`} style={picStyle}/>
 				<div className="thumbtext">

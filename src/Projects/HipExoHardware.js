@@ -38,40 +38,34 @@ export default function HipExoHardware(props) {
 				To tackle this, I went through many sketches and iterations with the graduate students who worked on the electronics and on the frame of the device. Eventually, I was able to make a unit that was much improved (though not without its flaws) and which allowed for some additional components. An image from the CAD is shown as well as a 3D printed prototype. This was the most complex thing I had designed and it was great experience to puzzle out how everything would fit together in modular way and be manufactured easily.
 				</FullRowText>
 				<Subheading>IMU Housings</Subheading>
+				<FullRowText>
+				The hip exoskeleton uses inertial measurement units (IMU) to obtain information about the user’s kinematics. We were using an IMU from Yost Labs and wanted a more secure way of attaching it to the thigh cuffs on the device. It was previously attached using Velcro. Shown are my CAD and the 3D printed result.
+				</FullRowText>
 				<div className="row">
+					<div className="col" >
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/Old IMU on Exo.png' style={firstPicStyle}/>
+					</div>
+					<div className="col" >
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/Yost IMU.png' style={firstPicStyle}/>
+					</div>
+					<div className="col" >
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/IMU Holder CAD.png' style={firstPicStyle}/>
+					</div>
+					<div className="col" >
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/IMU Holder v2 Printed.JPG' style={firstPicStyle}/>
+					</div>
+				</div>
+				<Subheading>C Frame Static Analysis</Subheading>
+				<div className="row">
+					<div className="col-sm-6" >
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/C Frame Image.JPG' style={firstPicStyle}/>
+					</div>
 					<div className="col text-start fs-5 d-flex align-items-center pt-4">
 						<p>
-						The focus of this problem was the pump support system. There will be a motor that drives the pump with a belt: the pump and pump support could be in contact with water. Our goal is to design the pump platform, support arms, and the clevis pins to connect those to the fixed support structure. We were given information about the speed and torque of the pump impeller shaft, the minimum tension in the belt, and the pump weight among other specifications.
+						The hip exoskeleton has various major components that need to be connected together: two actuators, the electronics unit, and an orthotic back plate. The way they connect is using this frame that we call the C Frame. One of the graduate students was trying to improve this and make it lighter using tubes, so I performed some static analysis for him. This was the first time I had used any of my knowledge from Deformable Bodies class to an actual design, and it was pretty fun although I missed some things. I modeled each side as a cantilevered beam with the actuator’s weight on it, and then I wrote a Python script for easy calculation with different tube parameters. The actual analysis is pretty brief and can be seen here.
 						</p>
 					</div>
-					<div className="col-sm-5" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Machine Design/DP1 Fig2.png' style={firstPicStyle}/>
-					</div>
 				</div>
-				<Subheading>Design Problem 2: Pump Shaft</Subheading>
-				<div className="row">
-					<div className="col-sm-6" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Machine Design/DP2 Fig1.png' style={firstPicStyle}/>
-					</div>
-					<div className="col" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Machine Design/DP2 Fig2.png' style={firstPicStyle}/>
-					</div>
-				</div>
-				<FullRowText>
-				The focus of this problem is the impeller shaft and the shaft components. The goal here was to select a shaft, key, set screw, bearings, retaining rings, and a tapered pin based on our analysis. We were given information about the RPM and power transmission through the shaft, loads on the pulley, and loads from the impeller among other specifications.
-				</FullRowText>
-				<Subheading>Design Problem 3: Gearing System</Subheading>
-				<div className="row">
-					<div className="col-sm-6" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Machine Design/DP3 Fig1.png' style={firstPicStyle}/>
-					</div>
-					<div className="col" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Machine Design/DP3 Fig2.png' style={firstPicStyle}/>
-					</div>
-				</div>
-				<FullRowText>
-				The focus of this problem was on gear systems. We were given target RPM / power requirements for the shafts, a range of shaft diameters for each shaft, and some spacing requirements among other specifications. We had to select the gears based on the shaft size, kinematics, stresses and cost.
-				</FullRowText>
 			</div>
 		</div>
 	)

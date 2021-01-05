@@ -1,6 +1,7 @@
 import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
+import FullRowImage from '../Components/FullRowImage.js';
 
 export default function KneeExo(props) {
 	const firstRowStyle = {
@@ -138,16 +139,8 @@ export default function KneeExo(props) {
 				<FullRowText>
 				The logic for the different operating modes of the device (powered on, calibrating, calibrated, and assisting) and the controller was implemented on the Raspberry Pi using Python and ROS. This was my first exposure to ROS, and while I did not lead that aspect of the project, I learned about its purpose, capabilities, and how to use it. A diagram for the ROS nodes we used as well as a state transition diagram for the device are shown.
 				</FullRowText>
-				<div className="row">
-					<div className="col">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/State Machine.png" style={secondPicStyle}/>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/Knee Exo/ROS Nodes.png" style={thirdPicStyle}/>
-					</div>
-				</div>
+				<FullRowImage src="project-assets/Knee Exo/State Machine.png"/>
+				<FullRowImage src="project-assets/Knee Exo/ROS Nodes.png"/>
 				<Subheading>Proportional Myoelectric Controller Implementation</Subheading>
 				<FullRowText>
 				The actual controller that determined the commanded assistance torque was a Proportional Myoelectric Controller, adapted from Koller et al[1]. The raw EMG signal is noisy and we wanted the torque profile to be proportional to the overall EMG profile. To create the EMG profile, at any clock cycle of the controller, the RMS of a backward-looking window of the EMG signal was calculated. This created a smooth time series with which we could command the device. The RMS EMG at each clock cycle was compared to the maximum RMS EMG value during the calibration phase to produce the desired torque output (See Equation 1). Essentially, the torque command is a fraction of the device’s maximum torque, and this fraction is determined by the current EMG signal.
