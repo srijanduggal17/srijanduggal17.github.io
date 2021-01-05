@@ -2,7 +2,7 @@ import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 
-export default function KneeExo(props) {
+export default function MachineDesign(props) {
 	const firstPicStyle = {
 		maxHeight: '70vh',
 		maxWidth: '100%'

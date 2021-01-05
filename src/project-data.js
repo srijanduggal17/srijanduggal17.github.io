@@ -1,6 +1,7 @@
 import Game2048 from './Projects/2048.js';
 import KneeExo from './Projects/KneeExo.js';
 import MachineDesign from './Projects/MachineDesign.js';
+import HipExoHardware from './Projects/HipExoHardware.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -28,16 +29,16 @@ export const projectInfo = [
 		desc: 'practical design problems from my Machine Design course',
 		timeline: 'Aug-Dec 2020',
 		skills: ['machine design'],
-		projectURL: 'machinedesign',
+		projectURL: 'machine-design',
 		projectPage: <MachineDesign />
 	},
 	{
-		imgPath: '2048 Game.png',
-		title: '2048 Playing Agent',
-		desc: 'Bot that plays 2048: human-based logic and reinforcement learning',
-		timeline: 'May-June 2019',
-		skills: ['web scraping', 'reinforcement learning'],
-		projectURL: '2048Agent',
-		projectPage: <Game2048 />
+		imgPath: 'Hip Exo Hardware.png',
+		title: 'Hip Exoskeleton Hardware',
+		desc: 'Various hardware projects I worked on for a robotic hip exoskeleton',
+		timeline: '????',
+		skills: ['CAD', '3D printing', 'design'],
+		projectURL: 'hipexo-hardware',
+		projectPage: <HipExoHardware />
 	}
 ];
