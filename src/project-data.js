@@ -3,6 +3,7 @@ import KneeExo from './Projects/KneeExo.js';
 import MachineDesign from './Projects/MachineDesign.js';
 import HipExoHardware from './Projects/HipExoHardware.js';
 import InstrumentedInsole from './Projects/InstrumentedInsole.js';
+import ME2110 from './Projects/ME2110.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -58,6 +59,6 @@ export const projectInfo = [
 		timeline: 'Jan-May 2019',
 		skills: ['3D printing', 'mechatronics', 'LabVIEW'],
 		projectURL: 'me2110',
-		projectPage: <InstrumentedInsole />
+		projectPage: <ME2110 />
 	}
 ];
