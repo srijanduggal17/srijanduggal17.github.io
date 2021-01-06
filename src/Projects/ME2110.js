@@ -19,6 +19,11 @@ export default function ME2110(props) {
 		width: '100%'
 	};
 
+	const fourthPicStyle = {
+		height: '60vh',
+		width: '100%'
+	};
+
 	return (
 		<div>
 			<ProjectHeading>Autonomous Robot for Creative Decisions & Design</ProjectHeading>
@@ -72,11 +77,53 @@ export default function ME2110(props) {
 						</p>
 					</div>
 				</div>
+				<div className="row">
+					<div className="col text-start fs-5 d-flex align-items-center pt-4">
+						<p>
+						Finally, to place the flag, we used a DC motor that spun for a certain amount of time, and then we supplied a small voltage to keep the flag pressed in the center. As the dome spun around, we designed our flag-releasing arm to knock over other teams’ flags and then we programmed the device to pull back after a certain period of time – dropping other flags into lower-scoring zones.
+						</p>
+					</div>
+					<div className="col-sm-6" >
+						<iframe className="pt-4 d-block"
+								src='https://www.youtube.com/embed/Mb1UJKg1ET4'
+								style={thirdPicStyle}/>
+					</div>
+				</div>
+				<FullRowText>
+				After this, we tested our robot against robots from other teams to see how they would perform!
+				</FullRowText>
+				<div className="row">
+					<div className="col">
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/ME 2110/In Progress.JPG' style={firstPicStyle}/>
+					</div>
+					<div className="col-sm-6" >
+						<iframe className="pt-4 d-block"
+								src='https://www.youtube.com/embed/Ctt1OV1GK_0'
+								style={thirdPicStyle}/>
+					</div>
+				</div>
+				<FullRowText>
+				Now we were ready for the competition! Below is our final robot, the competition-day setup, and some videos of the competition.
+				</FullRowText>
+				<div className="row">
+					<div className="col">
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/ME 2110/Final Bot.jpg' style={firstPicStyle}/>
+					</div>
+					<div className="col-sm-6">
+						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/ME 2110/Final Day setup.jpg' style={firstPicStyle}/>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-8 mx-auto">
+						<iframe className="pt-4 d-block"
+								src='https://www.youtube.com/embed/AGEf0dj2iKc'
+								style={thirdPicStyle}/>
+					</div>
+				</div>
 
-				<FullRowImage src='project-assets/Instrumented Insole/Walking 2 Raw vs Time.png' />
 
 				<FullRowText>
-				This was a great experience for me – one skill that I picked up from this was being able to read an electrical datasheet and understand what was going on and what information I needed to look for. I also got exposure to how to modify manufacturing techniques to reduce defects and make the process easier for whoever is manufacturing it. Finally, it was good practice for me in LabView and MATLAB. Overall a really neat project!
+				Overall, my contribution was heavily on the programming side using LabView to set up a state-machine and integrate the sensors/actuators. I also designed some 3D printed parts and assembled/tested the device. This was a really hands-on class that I enjoyed because of the opportunity to work with an awesome team and create a design that integrated mechanical, electronic, and software components.
 				</FullRowText>
 			</div>
 		</div>
