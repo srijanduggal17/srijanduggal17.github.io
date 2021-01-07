@@ -6,6 +6,7 @@ import InstrumentedInsole from './Projects/InstrumentedInsole.js';
 import ME2110 from './Projects/ME2110.js';
 import ElectricVehicle from './Projects/ElectricVehicle.js';
 import RobotArm from './Projects/RobotArm.js';
+import LocAgGPEst from './Projects/LocAgGPEst.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -80,5 +81,14 @@ export const projectInfo = [
 		skills: ['fabrication', 'Arduino', 'mechatronics'],
 		projectURL: 'robot-arm',
 		projectPage: <RobotArm />
+	},
+	{
+		imgPath: 'Loc Agnostic GP Estimator.png',
+		title: 'Research: Gait Phase Estimation',
+		desc: 'We made a locomotion-mode agnostic gait phase estimator for hip exoskeletons',
+		timeline: 'Aug-Dec 2020',
+		skills: ['deep learning', 'Keras'],
+		projectURL: 'locagnostic-gpestimation',
+		projectPage: <LocAgGPEst />
 	}
 ];
