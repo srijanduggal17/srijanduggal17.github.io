@@ -1,4 +1,4 @@
-import ProjectThumbnail from './ProjectThumbnail.js';
+import ProjectThumbnail from './Components/ProjectThumbnail.js';
 import { projectInfo } from './project-data.js';
 
 export default function Projects(props) {

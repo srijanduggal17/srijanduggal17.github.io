@@ -4,6 +4,8 @@ import MachineDesign from './Projects/MachineDesign.js';
 import HipExoHardware from './Projects/HipExoHardware.js';
 import InstrumentedInsole from './Projects/InstrumentedInsole.js';
 import ME2110 from './Projects/ME2110.js';
+import ElectricVehicle from './Projects/ElectricVehicle.js';
+import RobotArm from './Projects/RobotArm.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -46,7 +48,7 @@ export const projectInfo = [
 	{
 		imgPath: 'Insole.jpg',
 		title: 'Instrumented Insole',
-		desc: 'Worked on manufacturing, improving and testing shoe insoles with pressure sensors ',
+		desc: 'Worked on manufacturing, improving and testing shoe insoles with pressure sensors',
 		timeline: 'Aug-Dec 2019',
 		skills: ['sensors', 'LabVIEW', 'MATLAB'],
 		projectURL: 'insole',
@@ -55,10 +57,28 @@ export const projectInfo = [
 	{
 		imgPath: 'ME2110.jpg',
 		title: 'Autonomous Robot for Creative Decisions & Design Course',
-		desc: 'We designed, built, and tested an autonomous robot for our course competitiong',
+		desc: 'We designed, built, and tested a robot for our course competition',
 		timeline: 'Jan-May 2019',
 		skills: ['3D printing', 'mechatronics', 'LabVIEW'],
 		projectURL: 'me2110',
 		projectPage: <ME2110 />
+	},
+	{
+		imgPath: 'Electric Vehicle.JPG',
+		title: 'Science Olympiad: Electric Vehicle',
+		desc: 'We made a battery-powered car for a science olympiad event',
+		timeline: '2016-2017',
+		skills: ['laser cutting', '3D printing', 'Arduino'],
+		projectURL: 'electric-vehicle',
+		projectPage: <ElectricVehicle />
+	},
+	{
+		imgPath: 'Robot Arm.JPG',
+		title: 'Science Olympiad: Robot Arm',
+		desc: 'We made a robot arm from scratch for a science olympiad event',
+		timeline: '2016-2017',
+		skills: ['fabrication', 'Arduino', 'mechatronics'],
+		projectURL: 'robot-arm',
+		projectPage: <RobotArm />
 	}
 ];
