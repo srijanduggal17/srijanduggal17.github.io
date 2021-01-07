@@ -7,6 +7,7 @@ import ME2110 from './Projects/ME2110.js';
 import ElectricVehicle from './Projects/ElectricVehicle.js';
 import RobotArm from './Projects/RobotArm.js';
 import LocAgGPEst from './Projects/LocAgGPEst.js';
+import HackAThing from './Projects/HackAThing.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -69,7 +70,7 @@ export const projectInfo = [
 		title: 'Science Olympiad: Electric Vehicle',
 		desc: 'We made a battery-powered car for a science olympiad event',
 		timeline: '2016-2017',
-		skills: ['laser cutting', '3D printing', 'Arduino'],
+		skills: ['laser cutting', 'CAD', '3D printing', 'Arduino'],
 		projectURL: 'electric-vehicle',
 		projectPage: <ElectricVehicle />
 	},
@@ -78,7 +79,7 @@ export const projectInfo = [
 		title: 'Science Olympiad: Robot Arm',
 		desc: 'We made a robot arm from scratch for a science olympiad event',
 		timeline: '2016-2017',
-		skills: ['fabrication', 'Arduino', 'mechatronics'],
+		skills: ['fabrication', 'CAD', 'Arduino', 'mechatronics'],
 		projectURL: 'robot-arm',
 		projectPage: <RobotArm />
 	},
@@ -90,5 +91,14 @@ export const projectInfo = [
 		skills: ['deep learning', 'Keras'],
 		projectURL: 'locagnostic-gpestimation',
 		projectPage: <LocAgGPEst />
+	},
+	{
+		imgPath: 'Hackathing.jpg',
+		title: 'BMW Hack-A-Thing Competition',
+		desc: 'We tried to make an end effector for automobile parts',
+		timeline: 'Aug-Dec 2017',
+		skills: ['Arduino', '3D printing', 'CAD'],
+		projectURL: 'hackathing',
+		projectPage: <HackAThing />
 	}
 ];
