@@ -27,10 +27,6 @@ export default function KneeExo(props) {
 		maxWidth: '100%'
 	};
 
-	const firstRowTextStyle = {
-		color: 'grey'
-	};
-
 	const secRowTextStyle = {
 		color: 'black'
 	};
@@ -58,8 +54,7 @@ export default function KneeExo(props) {
 							src="project-assets/Knee Exo/Knee Exo.jpg"
 							style={firstPicStyle}/>
 					</div>
-					<div className="col text-center fs-4 fw-bold d-flex align-items-center"
-						style={firstRowTextStyle}>
+					<div className="col text-center fs-5 d-flex align-items-center">
 						<p>
 						This project was part of my undergraduate research at the Exoskeleton
 						and Prosthetics Intelligent Controls (EPIC) Lab with Dr. Aaron Young.
