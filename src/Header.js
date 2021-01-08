@@ -12,8 +12,12 @@ export default function Header(props) {
 		'marginLeft': 'auto'
 	};
 
+	const navStyle = {
+		'height': '12vh'
+	};
+
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light" style={navStyle}>
 			<div className="container-fluid">
 				<a className="navbar-brand fs-3" href="/">Srijan Duggal</a>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +27,6 @@ export default function Header(props) {
 					<ul className="nav navbar-nav" style={menuStyle}>
 						<MyLink to="/projects">Projects</MyLink>
 						<MyLink to="/">About Me</MyLink>
-						<MyLink to="/contact">Contact Me</MyLink>
 					</ul>
 				</div>
 			</div>

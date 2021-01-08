@@ -8,6 +8,7 @@ import ElectricVehicle from './Projects/ElectricVehicle.js';
 import RobotArm from './Projects/RobotArm.js';
 import LocAgGPEst from './Projects/LocAgGPEst.js';
 import HackAThing from './Projects/HackAThing.js';
+import Woodworking from './Projects/Woodworking.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -19,6 +20,15 @@ export const projectInfo = [
 		skills: ['microcontrollers', 'PCB design', 'ROS'],
 		projectURL: 'knee-exo',
 		projectPage: <KneeExo />
+	},
+	{
+		imgPath: 'Loc Agnostic GP Estimator.png',
+		title: 'Research: Gait Phase Estimation',
+		desc: 'We made a locomotion-mode agnostic gait phase estimator for hip exoskeletons',
+		timeline: 'Aug-Dec 2020',
+		skills: ['deep learning', 'Keras'],
+		projectURL: 'locagnostic-gpestimation',
+		projectPage: <LocAgGPEst />
 	},
 	{
 		imgPath: 'Machine Design.png',
@@ -84,21 +94,21 @@ export const projectInfo = [
 		projectPage: <RobotArm />
 	},
 	{
-		imgPath: 'Loc Agnostic GP Estimator.png',
-		title: 'Research: Gait Phase Estimation',
-		desc: 'We made a locomotion-mode agnostic gait phase estimator for hip exoskeletons',
-		timeline: 'Aug-Dec 2020',
-		skills: ['deep learning', 'Keras'],
-		projectURL: 'locagnostic-gpestimation',
-		projectPage: <LocAgGPEst />
-	},
-	{
-		imgPath: 'Hackathing.jpg',
+		imgPath: 'Hackathing.JPG',
 		title: 'BMW Hack-A-Thing Competition',
 		desc: 'We tried to make an end effector for automobile parts',
 		timeline: 'Aug-Dec 2017',
 		skills: ['Arduino', '3D printing', 'CAD'],
 		projectURL: 'hackathing',
 		projectPage: <HackAThing />
+	},
+	{
+		imgPath: 'Woodworking.JPG',
+		title: 'High School Woodworking Projects',
+		desc: 'Various things I built in high school',
+		timeline: '2016-2017',
+		skills: ['woodworking'],
+		projectURL: 'woodworking',
+		projectPage: <Woodworking />
 	}
 ];
