@@ -87,7 +87,7 @@ export const projectInfo = [
 	{
 		imgPath: 'Robot Arm.JPG',
 		title: 'Science Olympiad: Robot Arm',
-		desc: 'We made a robot arm from scratch for a science olympiad event',
+		desc: 'We made a robotic arm from scratch for a science olympiad event',
 		timeline: '2016-2017',
 		skills: ['fabrication', 'CAD', 'Arduino', 'mechatronics'],
 		projectURL: 'robot-arm',
