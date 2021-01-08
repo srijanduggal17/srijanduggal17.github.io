@@ -1,3 +1,5 @@
+import FullRowText from "../Components/FullRowText";
+
 export default function Agent2048(props) {
 	const firstRowStyle = {
 		backgroundColor: '#f3b27a'
@@ -114,6 +116,9 @@ export default function Agent2048(props) {
 						</p>
 					</div>
 				</div>
+				<p className="fs-5 text-center pt-4">
+					My code can be found <a href='https://github.com/srijanduggal17/2048-Playing-Agent'>here</a> on GitHub.
+				</p>
 				<div className="row fs-5">
 					<div className="col text-center pt-4">
 						<p>The game can be found at <a href='https://play2048.co/'>https://play2048.co/</a></p>

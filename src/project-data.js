@@ -24,7 +24,7 @@ export const projectInfo = [
 	{
 		imgPath: 'Loc Agnostic GP Estimator.png',
 		title: 'Research: Gait Phase Estimation',
-		desc: 'We made a locomotion-mode agnostic gait phase estimator for hip exoskeletons',
+		desc: 'We made a gait phase estimator for hip exoskeletons that is robust to variations in terrain',
 		timeline: 'Aug-Dec 2020',
 		skills: ['deep learning', 'Keras'],
 		projectURL: 'locagnostic-gpestimation',
