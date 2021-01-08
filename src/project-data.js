@@ -33,7 +33,7 @@ export const projectInfo = [
 	{
 		imgPath: 'Machine Design.png',
 		title: 'Machine Design Course Projects',
-		desc: 'practical design problems from my Machine Design course',
+		desc: 'Practical design problems from my Machine Design course',
 		timeline: 'Aug-Dec 2020',
 		skills: ['machine design'],
 		projectURL: 'machine-design',
