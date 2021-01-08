@@ -39,8 +39,8 @@ export default function AboutMe(props) {
 						and with the help of Bootstrap. Hope you enjoy it!
 						<br></br>
 						<br></br>
-						Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.
-						You can view my resume <a href='Resume.pdf'>here</a>
+						Let's get in touch! Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.
+						See my resume <a href='Resume.pdf'>here</a>
 					</p>
 				</div>
 			</div>
