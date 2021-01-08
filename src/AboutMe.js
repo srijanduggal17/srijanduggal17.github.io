@@ -34,12 +34,9 @@ export default function AboutMe(props) {
 						for learning has led me to explore a variety of additional skillsets.
 						<br></br>
 						<br></br>
-						<p>
-						I'm currently finishing the last semester of my Mechanical Engineering
-						degree with minor in Robotics at Georgia Tech and looking for internships for Summer 2021. I plan
-						to return in Fall 2021 to pursue a Masters in Mechanical Engineering.
-						</p>
-						<Link to="/projects" style={linkStyle}>Click here to check out some of my cool projects!</Link>
+						<Link to="/projects" style={linkStyle}>Click here to check out some of my cool projects! </Link>
+						You're currently experiencing one - I designed and developed this website from scratch
+						and with the help of Bootstrap. Hope you enjoy it!
 						<br></br>
 						<br></br>
 						Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.
