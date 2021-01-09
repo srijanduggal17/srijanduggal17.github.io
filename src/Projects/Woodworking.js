@@ -37,6 +37,9 @@ export default function Woodworking(props) {
 				us and taught me so much.
 				</FullRowText>
 				<Subheading>Adirondack Chair, Senior Year</Subheading>
+				<FullRowText>
+				To this day, we enjoy sitting in this chair on our back porch.
+				</FullRowText>
 				<FullRowImage src='project-assets/Woodworking High School/Adirondack Chair.JPG'/>
 				<Subheading>Bookshelf for Breakthrough New Orleans</Subheading>
 				<FullRowText>
@@ -45,7 +48,7 @@ export default function Woodworking(props) {
 				for underserved middle schoolers in New Orleans. As a class project during
 				my senior year, I built a bookshelf for the program and got the help of
 				my class in painting and decorating it. It was a gift to Breakthrough New
-				Orleans from our class, and it was such a pleasure to make it!
+				Orleans from our class, and it was such a pleasure to make!
 				</FullRowText>
 				<div className="row">
 					<div className="col" >

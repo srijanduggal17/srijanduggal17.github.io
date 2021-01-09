@@ -141,7 +141,7 @@ export default function ME2110(props) {
 					</div>
 					<div className="col-sm-6">
 						<img className="pt-4 mx-auto pb-4 d-block"
-							src='project-assets/ME 2110/Final Day setup.jpg'
+							src='project-assets/ME 2110/Final Day Setup.jpg'
 							style={firstPicStyle}/>
 					</div>
 				</div>

@@ -29,14 +29,16 @@ export default function AboutMe(props) {
 				<div className="col text-start fs-5 d-flex mx-auto align-items-center pt-4">
 					<p>
 						My name is Srijan Duggal. I'm an avid learner and love creating things
-						(hardware and software). I want to use my skills and drive to help others
-						with my career. I'm a Mechanical Engineer by profession, but my passion
-						for learning has led me to explore a variety of additional skillsets.
+						(hardware and software). I want to use my skills and my drive to help
+						others. I'm a Mechanical Engineer by profession, but my passion for
+						learning has led me to explore a variety of additional skillsets.
 						<br></br>
 						<br></br>
-						<Link to="/projects" style={linkStyle}>Click here to check out some of my cool projects! </Link>
-						You're currently experiencing one - I designed and developed this website from scratch
-						and with the help of Bootstrap. Hope you enjoy it!
+						<Link to="/projects" style={linkStyle}>
+							Click here to check out some of my cool projects!
+						</Link>
+						You're currently looking one - I designed and developed this
+						website from scratch and with the help of Bootstrap. Hope you enjoy it!
 						<br></br>
 						<br></br>
 						Let's get in touch! Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.

@@ -32,7 +32,7 @@ export default function HipExoHardware(props) {
 						to the device, so new PCBs or components are added/removed. My goal 
 						was to improve the unit that housed all of the electronics. This unit
 						is positioned on the user’s back. Prior versions were sufficient at
-						the time, but had various areas for improvement: it was difficult to
+						the time, but had room for improvement: it was difficult to
 						remove individual components (if you wanted to remove something, you
 						had to remove the whole housing and then disassemble the housing),
 						it protruded away from the user’s back too much, causing a larger
