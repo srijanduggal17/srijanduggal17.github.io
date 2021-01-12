@@ -9,6 +9,7 @@ import RobotArm from './Projects/RobotArm.js';
 import LocAgGPEst from './Projects/LocAgGPEst.js';
 import HackAThing from './Projects/HackAThing.js';
 import Woodworking from './Projects/Woodworking.js';
+import EWBUganda from './Projects/EWBUganda.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -74,6 +75,15 @@ export const projectInfo = [
 		skills: ['3D printing', 'mechatronics', 'LabVIEW'],
 		projectURL: 'me2110',
 		projectPage: <ME2110 />
+	},
+	{
+		imgPath: 'ewbgt.png',
+		title: 'EWB-GT: Project Uganda',
+		desc: 'We worked on clean water supply and distribution in the village of Oloo, Uganda',
+		timeline: 'Jan-May 2018',
+		skills: ['MATLAB', 'JavaScript'],
+		projectURL: 'ewbuganda',
+		projectPage: <EWBUganda />
 	},
 	{
 		imgPath: 'Electric Vehicle.JPG',

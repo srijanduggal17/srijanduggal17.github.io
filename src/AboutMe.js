@@ -35,8 +35,7 @@ export default function AboutMe(props) {
 						<br></br>
 						<br></br>
 						<Link to="/projects" style={linkStyle}>
-							Click here to check out some of my cool projects!
-						</Link>
+							Click here to check out some of my cool projects! </Link>
 						You're currently looking one - I designed and developed this
 						website from scratch and with the help of Bootstrap. Hope you enjoy it!
 						<br></br>
