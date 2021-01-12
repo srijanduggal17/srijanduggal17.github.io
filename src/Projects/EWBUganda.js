@@ -43,6 +43,7 @@ export default function EWBUganda(props) {
 				course of action, I set up a simple desktop interface to enter a region and then save a file of
 				the elevation data. We were then able to plot and explore this data in MATLAB to figure out
 				how we were going to set up the distribution system!
+				My code can be found <a href='https://github.com/srijanduggal17/EWB-Elevation-Analysis-Toolkit'>here</a> on GitHub.
 				</FullRowText>
 				<div className="row">
 					<div className="col-sm-6" >
