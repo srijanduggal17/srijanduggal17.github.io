@@ -11,6 +11,7 @@ import HackAThing from './Projects/HackAThing.js';
 import Woodworking from './Projects/Woodworking.js';
 import EWBUganda from './Projects/EWBUganda.js';
 import SpotifyProjects from './Projects/SpotifyProjects.js';
+import PowerCourses from './Projects/PowerCourses.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -86,6 +87,15 @@ export const projectInfo = [
 		projectURL: 'me2110',
 		projectPage: <ME2110 />
 	},
+	{
+		imgPath: 'PowerCourses.png',
+		title: 'Website for The Power Courses',
+		desc: 'I improved and developed a website for one of my employers - a test prep company',
+		timeline: 'May-Aug 2018',
+		skills: ['web development', 'Google Cloud Platform'],
+		projectURL: 'pwrcourses',
+		projectPage: <PowerCourses />
+	},	
 	{
 		imgPath: 'ewbgt.png',
 		title: 'EWB-GT: Project Uganda',
