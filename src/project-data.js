@@ -10,6 +10,7 @@ import LocAgGPEst from './Projects/LocAgGPEst.js';
 import HackAThing from './Projects/HackAThing.js';
 import Woodworking from './Projects/Woodworking.js';
 import EWBUganda from './Projects/EWBUganda.js';
+import SpotifyProjects from './Projects/SpotifyProjects.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -48,6 +49,15 @@ export const projectInfo = [
 		skills: ['web scraping', 'reinforcement learning'],
 		projectURL: '2048Agent',
 		projectPage: <Game2048 />
+	},
+	{
+		imgPath: 'Spotify.png',
+		title: 'Spotify Projects',
+		desc: 'I love music - a few projects using the Spotify API',
+		timeline: '2018-2020',
+		skills: ['web APIs', 'machine learning', 'Google Cloud Platform'],
+		projectURL: 'SpotifyProjects',
+		projectPage: <SpotifyProjects />
 	},
 	{
 		imgPath: 'Hip Exo Hardware.png',
