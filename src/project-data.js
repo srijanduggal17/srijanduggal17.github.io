@@ -13,6 +13,7 @@ import EWBUganda from './Projects/EWBUganda.js';
 import SpotifyProjects from './Projects/SpotifyProjects.js';
 import PowerCourses from './Projects/PowerCourses.js';
 import HomeValueForecasting from './Projects/HomeValueForecasting.js';
+import MG20 from './Projects/MG20.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -42,6 +43,15 @@ export const projectInfo = [
 		skills: ['machine design'],
 		projectURL: 'machine-design',
 		projectPage: <MachineDesign />
+	},
+	{
+		imgPath: 'MG20.png',
+		title: 'Maccabi Games 2020',
+		desc: 'We develop tournament management software for the MAR JCC Maccabi Games',
+		timeline: 'May-Nov 2020',
+		skills: ['web development', 'JavaScript', 'SQL'],
+		projectURL: 'mg20',
+		projectPage: <MG20 />
 	},
 	{
 		imgPath: '2048 Game.png',
