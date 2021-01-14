@@ -153,7 +153,7 @@ export default function HomeValueForecasting(props) {
 				amicable for our models. Then we scraped all the actual observations for each
 				series in each county, as well as various series at the state and national
 				level. Once we had the data for each feature on a monthly basis, after applying
-				our noted transformations, we constructed the training dataset.
+				some unmentioned transformations, we constructed the training dataset.
 				</FullRowText>
 				<Subheading>Model Training and Results</Subheading>
 				<div className="row">
