@@ -12,6 +12,7 @@ import Woodworking from './Projects/Woodworking.js';
 import EWBUganda from './Projects/EWBUganda.js';
 import SpotifyProjects from './Projects/SpotifyProjects.js';
 import PowerCourses from './Projects/PowerCourses.js';
+import HomeValueForecasting from './Projects/HomeValueForecasting.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -46,11 +47,20 @@ export const projectInfo = [
 		imgPath: '2048 Game.png',
 		title: '2048 Playing Agent',
 		desc: 'Bot that plays 2048 using human-based logic & reinforcement learning',
-		timeline: 'June-July 2020',
+		timeline: 'Jun-Jul 2020',
 		skills: ['web scraping', 'reinforcement learning'],
 		projectURL: '2048Agent',
 		projectPage: <Game2048 />
 	},
+	{
+		imgPath: 'Home Value Forecasting.png',
+		title: 'Home Value Forecasting',
+		desc: 'Using deep learning and time series socioeconomic data to forecast county-level home values',
+		timeline: 'Mar-May 2020',
+		skills: ['deep learning', 'web APIs', 'PyTorch'],
+		projectURL: 'homevalueforecasting',
+		projectPage: <HomeValueForecasting />
+	},	
 	{
 		imgPath: 'Spotify.png',
 		title: 'Spotify Projects',
