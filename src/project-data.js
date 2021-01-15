@@ -14,9 +14,19 @@ import SpotifyProjects from './Projects/SpotifyProjects.js';
 import PowerCourses from './Projects/PowerCourses.js';
 import HomeValueForecasting from './Projects/HomeValueForecasting.js';
 import MG20 from './Projects/MG20.js';
+import BoardGames from './Projects/BoardGames.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
+	{
+		imgPath: 'Board Games.jpg',
+		title: 'Automated Board Game Deal Finder',
+		desc: 'Created a bot that scrapes a forum to find deals on board games',
+		timeline: 'Oct 2020-Present',
+		skills: ['web scraping', 'cloud services', 'database'],
+		projectURL: 'boardgames',
+		projectPage: <BoardGames />
+	},
 	{
 		imgPath: 'Knee Exo.jpg',
 		title: 'Knee Exoskeleton Controller',
