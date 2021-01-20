@@ -15,6 +15,7 @@ import PowerCourses from './Projects/PowerCourses.js';
 import HomeValueForecasting from './Projects/HomeValueForecasting.js';
 import MG20 from './Projects/MG20.js';
 import BoardGames from './Projects/BoardGames.js';
+import BasketballProject from './Projects/BasketballProject.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -134,6 +135,15 @@ export const projectInfo = [
 		skills: ['MATLAB', 'JavaScript'],
 		projectURL: 'ewbuganda',
 		projectPage: <EWBUganda />
+	},
+	{
+		imgPath: 'BasketballProject.jpg',
+		title: 'Basketball Analytics Science Fair Project',
+		desc: 'We made A Statistical Method for Analyzing Basketball Teams, and made it to ISEF!',
+		timeline: 'Oct 2016-May 2017',
+		skills: ['probability & statistics', 'data analytics', 'JavaScript'],
+		projectURL: 'basketball-project',
+		projectPage: <BasketballProject />
 	},
 	{
 		imgPath: 'Electric Vehicle.JPG',
