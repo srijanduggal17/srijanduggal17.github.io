@@ -140,7 +140,7 @@ export const projectInfo = [
 		imgPath: 'BasketballProject.jpg',
 		title: 'Basketball Analytics Science Fair Project',
 		desc: 'We made A Statistical Method for Analyzing Basketball Teams, and made it to ISEF!',
-		timeline: 'Oct 2016-May 2017',
+		timeline: 'Sep 2016-Aug 2017',
 		skills: ['probability & statistics', 'data analytics', 'JavaScript'],
 		projectURL: 'basketball-project',
 		projectPage: <BasketballProject />
