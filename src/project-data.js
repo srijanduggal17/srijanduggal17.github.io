@@ -16,14 +16,24 @@ import HomeValueForecasting from './Projects/HomeValueForecasting.js';
 import MG20 from './Projects/MG20.js';
 import BoardGames from './Projects/BoardGames.js';
 import BasketballProject from './Projects/BasketballProject.js';
+import MechatronicsCube from './Projects/MechatronicsCube.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
 	{
+		imgPath: 'MechatronicsCube.jpg',
+		title: 'Reaction Wheel Self-Balancing Cube',
+		desc: 'Designed, manufactured, and programmed a self-balancing cube',
+		timeline: 'Jan 2021-May 2021',
+		skills: ['mechatronics', 'design', 'controls', 'CAD', 'microcontrollers'],
+		projectURL: 'mechatronicscube',
+		projectPage: <MechatronicsCube />
+	},
+	{
 		imgPath: 'Board Games.jpg',
 		title: 'Automated Board Game Deal Finder',
 		desc: 'Created a bot that scrapes a forum to find deals on board games',
-		timeline: 'Oct 2020-Present',
+		timeline: 'Oct 2020-Dec 2020',
 		skills: ['web scraping', 'cloud services', 'database'],
 		projectURL: 'boardgames',
 		projectPage: <BoardGames />
