@@ -95,7 +95,7 @@ export default function MechatronicsCube(props) {
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-4">
 						<img className="pt-4 pb-4 mx-auto d-block"
-							src="project-assets/Mechatronics Cube/Initial Cube Render.jpg"
+							src="project-assets/Mechatronics Cube/Initial Cube Render.JPG"
 							style={firstPicStyle}/>
 					</div>
 					<div className="col text-start fs-5 d-flex align-items-center">
