@@ -156,11 +156,11 @@ export default function LocAgGPEst(props) {
 				</FullRowText>
 				<FullRowText>
 					All figures unless otherwise specified are taken from: <br></br>
-					I. Kang, D. Molinaro, <span className="fw-bold">S. Duggal</span>, Y. Chen, P. Kunapuli, A. Young,
-					Real-time gait phase estimation for robotic hip exoskeleton
-					control during multimodal locomotion, IEEE Robotics and Automation
-					Letters / International Conference on Robotics and Automation (ICRA),
-					May 2021 (under review)
+					I. Kang, D. D. Molinaro, <span className="fw-bold">S. Duggal</span>,
+					Y. Chen, P. Kunapuli and A. J. Young, "Real-Time Gait Phase Estimation
+					for Robotic Hip Exoskeleton Control During Multimodal Locomotion," in
+					IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 3491-3497,
+					April 2021, doi: 10.1109/LRA.2021.3062562.
 				</FullRowText>
 			</div>
 		</div>

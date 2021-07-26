@@ -17,9 +17,19 @@ import MG20 from './Projects/MG20.js';
 import BoardGames from './Projects/BoardGames.js';
 import BasketballProject from './Projects/BasketballProject.js';
 import MechatronicsCube from './Projects/MechatronicsCube.js';
+import ControlsCube from './Projects/ControlsCube.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
+	{
+		imgPath: 'Control Cube.jpg',
+		title: 'Control Moment Gyroscope Balancing Cube',
+		desc: 'Electronic design, signal processing, and programming a self-balancing cube',
+		timeline: 'Jan 2021-May 2021',
+		skills: ['signal processing', 'microcontrollers', 'electronics, controls'],
+		projectURL: 'controlscube',
+		projectPage: <ControlsCube />
+	},
 	{
 		imgPath: 'MechatronicsCube.jpg',
 		title: 'Reaction Wheel Self-Balancing Cube',

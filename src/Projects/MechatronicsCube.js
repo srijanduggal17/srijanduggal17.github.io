@@ -56,7 +56,7 @@ export default function MechatronicsCube(props) {
 					</div>
 					<div className="col text-start fs-5 d-flex align-items-center">
 						<p>
-						This was a final project for a course in Mechatronics project. We had
+						This was a final project for a course in Mechatronics. We had
 						to use an MSP432 microcontroller for closed loop control of a system.
 						My teammate and I were inspired by <a href='https://www.youtube.com/watch?v=hLZ6U71y700'>
 						this video</a> to make a self-balancing device. We saw examples of cubes
