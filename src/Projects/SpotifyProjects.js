@@ -14,16 +14,6 @@ export default function SpotifyProjects(props) {
 		maxWidth: '100%'
 	};
 
-	const thirdPicStyle = {
-		height: '80vh',
-		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '70vh',
-		width: '90%'
-	};
-
 	return (
 		<div>
 			<ProjectHeading>Spotify Projects</ProjectHeading>
@@ -39,7 +29,8 @@ export default function SpotifyProjects(props) {
 				The new playlist is automatically added to both of your accounts and you can
 				now listen to shared music without any hassle!
 				</FullRowText>
-				<FullRowImage src='project-assets/Spotify Projects/OurMusic Homepage.png' />
+				<FullRowImage src='project-assets/Spotify Projects/OurMusic Homepage.png'
+								alt='Image of Website Homepage' />
 				<FullRowText>
 				The was a fun project because it was a cool idea I had and I learned a lot! It
 				was my first time working with APIs, and I learned about the power of using
@@ -64,6 +55,7 @@ export default function SpotifyProjects(props) {
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/Audio Features.png'
+							alt='audio features from spotify API'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col text-start fs-5 d-flex align-items-center pt-4" >
@@ -101,10 +93,12 @@ export default function SpotifyProjects(props) {
 					<div className="col-sm-5" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/Algorithm Comparison.png'
+							alt='Algorithm comparison bar graphs'
 							style={secondPicStyle}/>
 					</div>
 				</div>
-				<FullRowImage src='project-assets/Spotify Projects/Confusion Matrices.png'/>
+				<FullRowImage src='project-assets/Spotify Projects/Confusion Matrices.png'
+							alt='Algorithm comparison confusion matrices'/>
 				<FullRowText>
 				Overall I gained experience using machine learning to tackle a task all the way
 				from dataset creation to final evaluation. I also learned how to use Scikit Learn
@@ -124,6 +118,7 @@ export default function SpotifyProjects(props) {
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/Audio Features.png'
+							alt='audio features from spotify API'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col text-start fs-5 d-flex align-items-center pt-4" >
@@ -143,16 +138,19 @@ export default function SpotifyProjects(props) {
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/DBSCAN Result.png'
+							alt='Example playlist from DBSCAN'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/Mean Shift Result1.png'
+							alt='Example playlist from mean shift algorithm'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Spotify Projects/Mean Shift Result2.png'
+							alt='Example playlist 2 from mean shift algorithm'
 							style={firstPicStyle}/>
 					</div>
 				</div>
@@ -174,7 +172,8 @@ export default function SpotifyProjects(props) {
 				Python script in Jupyter Notebook to do this for you. It goes through all of your
 				saved songs on Spotify and then makes a playlist with just the clean ones.
 				</FullRowText>
-				<FullRowImage src='project-assets/Spotify Projects/CleanPlaylistGenerator.png'/>
+				<FullRowImage src='project-assets/Spotify Projects/CleanPlaylistGenerator.png'
+							alt='Clean playlist generator'/>
 			</div>
 		</div>
 	)

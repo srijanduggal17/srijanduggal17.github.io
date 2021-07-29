@@ -9,16 +9,6 @@ export default function Woodworking(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
-	const thirdPicStyle = {
-		height: '80vh',
-		width: '100%'
-	};
-
 	const fourthPicStyle = {
 		height: '70vh',
 		width: '90%'
@@ -40,7 +30,8 @@ export default function Woodworking(props) {
 				<FullRowText>
 				To this day, we enjoy sitting in this chair on our back porch.
 				</FullRowText>
-				<FullRowImage src='project-assets/Woodworking High School/Adirondack Chair.JPG'/>
+				<FullRowImage src='project-assets/Woodworking High School/Adirondack Chair.JPG'
+							alt='adirondack chair'/>
 				<Subheading>Bookshelf for Breakthrough New Orleans</Subheading>
 				<FullRowText>
 				The summer between my Junior and Senior year, I volunteered as a teaching
@@ -54,16 +45,19 @@ export default function Woodworking(props) {
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/BTNOLA Bookshelf 1.JPG'
+							alt='Bookshelf 1'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/BTNOLA Bookshelf 2.JPG'
+							alt='Bookshelf 2'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/BTNOLA Bookshelf 3.JPG'
+							alt='Bookshelf 3'
 							style={firstPicStyle}/>
 					</div>
 				</div>
@@ -80,16 +74,19 @@ export default function Woodworking(props) {
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/JATD Spine.jpg'
+							alt='JATD Spine Model'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/JATD Lungs.jpg'
+							alt='JATD Spine Model 2'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-md-6 mx-auto d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
 								src='https://www.youtube.com/embed/dvE-jLCVdtY'
+								title='Lungs inflating'
 								style={fourthPicStyle}/>
 					</div>
 				</div>
@@ -106,11 +103,13 @@ export default function Woodworking(props) {
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/Clayton bookshelf.jpg'
+							alt='Hidden Door Bookshelf 1'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
 							src='project-assets/Woodworking High School/Clayton and Miles bookshelf.JPG'
+							alt='Hidden Door Bookshelf 2'
 							style={firstPicStyle}/>
 					</div>
 				</div>
