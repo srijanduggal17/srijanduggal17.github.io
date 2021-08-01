@@ -235,7 +235,8 @@ export default function MechatronicsCube(props) {
 				</div>
 				<FullRowImage src='project-assets/Mechatronics Cube/Oscillation Trial Example.png'/>
 				<p className="fs-5 text-center pt-4">
-					The code can be found <a
+					Click <a href='project-assets/Mechatronics Cube/Final Project Report.pdf'>here
+					</a> for a more detailed report on our work! The code can be found <a
 				href='https://github.com/srijanduggal17/ME4405-Reaction-Wheel-Balancing-Cube'>
 					here</a> on GitHub. Please contact me if you are interested in the CAD files.
 				</p>
