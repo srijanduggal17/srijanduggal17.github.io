@@ -17,6 +17,11 @@ export default function ControlsCube(props) {
 		maxWidth: '100%'
 	};
 
+	const thirdPicStyle = {
+		height: '80vh',
+		width: '100%'
+	};
+
 	return (
 		<div>
 			<ProjectHeading>Control Moment Gyroscope Balancing Cube</ProjectHeading>
@@ -151,6 +156,14 @@ export default function ControlsCube(props) {
 				</FullRowText>
 				<FullRowImage src='project-assets/Controls Cube/Code Flow.png'
 								alt='Code flow'/>
+				<div className="row">
+					<div className="col-md-8 mx-auto">
+						<iframe className="pt-4 d-block"
+								title='Demo'
+								src='https://www.youtube.com/embed/yjuLCqU-iTE'
+								style={thirdPicStyle}/>
+					</div>
+				</div>
 				<FullRowText>
 					Overall I learned a lot from this project, and I really enjoyed getting
 					to dive into the signal processing and dynamics aspects and creating a
