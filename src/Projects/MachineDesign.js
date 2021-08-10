@@ -24,6 +24,7 @@ export default function MachineDesign(props) {
 				<div className="row">
 					<div className="col-sm-5" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Design problem layout 1'
 							src='project-assets/Machine Design/DP1 Fig1.png'
 							style={firstPicStyle}/>
 					</div>
@@ -62,6 +63,7 @@ export default function MachineDesign(props) {
 					</div>
 					<div className="col-sm-5" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Design problem layout 2 - pump support'
 							src='project-assets/Machine Design/DP1 Fig2.png'
 							style={firstPicStyle}/>
 					</div>
@@ -70,11 +72,13 @@ export default function MachineDesign(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Design problem pump shaft layout'
 							src='project-assets/Machine Design/DP2 Fig1.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Design problem pump shaft dimensions'
 							src='project-assets/Machine Design/DP2 Fig2.png'
 							style={firstPicStyle}/>
 					</div>
@@ -93,11 +97,13 @@ export default function MachineDesign(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Gearing system layout'
 							src='project-assets/Machine Design/DP3 Fig1.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Gearing system dimensions'
 							src='project-assets/Machine Design/DP3 Fig2.png'
 							style={firstPicStyle}/>
 					</div>

@@ -17,33 +17,6 @@ export default function ControlsCube(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
-	const thirdPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
-	const secRowTextStyle = {
-		color: 'black'
-	};
-
-	const thirdRowTextStyle = {
-		color: 'white'
-	};
-
-	const fourthRowTextStyle = {
-		color: 'black'
-	};
-
-	const fourthPicStyle = {
-		height: '80vh',
-		width: '100%'
-	};
-
 	return (
 		<div>
 			<ProjectHeading>Control Moment Gyroscope Balancing Cube</ProjectHeading>
@@ -51,6 +24,7 @@ export default function ControlsCube(props) {
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-5">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Control moment gyroscope cube'
 							src="project-assets/Controls Cube/Control Cube.jpg"
 							style={firstPicStyle}/>
 					</div>
@@ -78,6 +52,7 @@ export default function ControlsCube(props) {
 				<div className="row" style={secRowStyle}>
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Key components'
 							src='project-assets/Controls Cube/Key Components.png'
 							style={firstPicStyle}/>
 					</div>
@@ -106,12 +81,14 @@ export default function ControlsCube(props) {
 					</div>
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Key components ctnd'
 							src='project-assets/Controls Cube/Key Components 2.png'
 							style={firstPicStyle}/>
 					</div>
 				</div>
 				<Subheading>Electronic Layout</Subheading>
-				<FullRowImage src="project-assets/Controls Cube/WiringDiagram.png"/>
+				<FullRowImage src="project-assets/Controls Cube/WiringDiagram.png"
+								alt='Wiring diagram'/>
 				<FullRowText>
 					My role in the project was the electronics and signal processing. Above is
 					the wiring diagram for the system. The main sensors are the encoder which
@@ -138,7 +115,8 @@ export default function ControlsCube(props) {
 					This is shown in yellow and you can see that it removes the numerical instability
 					issues.
 				</FullRowText>
-				<FullRowImage src='project-assets/Controls Cube/IMU Combined Estimate.png' />
+				<FullRowImage src='project-assets/Controls Cube/IMU Combined Estimate.png'
+								alt='IMU combined ACC estimate'/>
 				<FullRowText>
 					The other method of estimating the angle of the cube is using the gyroscope.
 					By always starting the cube on its side, the initial angle of the cube will
@@ -161,7 +139,8 @@ export default function ControlsCube(props) {
 					have a weighted sum of the two. This is shown below in orange and demonstrates
 					the significant improvement over the accelerometer estimate shown in blue.
 				</FullRowText>
-				<FullRowImage src='project-assets/Controls Cube/Final Estimator Comparison.png'/>
+				<FullRowImage src='project-assets/Controls Cube/Final Estimator Comparison.png'
+								alt='Final angle estimator comparison'/>
 				<Subheading>Controller Implementation</Subheading>
 				<FullRowText>
 					The other aspect I was responsible for was the digital implementation of the
@@ -170,7 +149,8 @@ export default function ControlsCube(props) {
 					error and output the moment necessary to stabilize the system. The controller
 					was implemented on the Arduino, and the image below shows the overall program flow.
 				</FullRowText>
-				<FullRowImage src='project-assets/Controls Cube/Code Flow.png'/>
+				<FullRowImage src='project-assets/Controls Cube/Code Flow.png'
+								alt='Code flow'/>
 				<FullRowText>
 					Overall I learned a lot from this project, and I really enjoyed getting
 					to dive into the signal processing and dynamics aspects and creating a

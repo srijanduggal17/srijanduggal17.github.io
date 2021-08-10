@@ -1,4 +1,3 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 import FullRowImage from '../Components/FullRowImage.js';
@@ -21,6 +20,7 @@ export default function InstrumentedInsole(props) {
 				<div className="row">
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Final Insole'
 							src='project-assets/Instrumented Insole/Final Insole.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -55,11 +55,13 @@ export default function InstrumentedInsole(props) {
 					</div>
 					<div className="col-sm-3" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Initial molds'
 							src='project-assets/Instrumented Insole/Initial Molds.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Insole molds'
 							src='project-assets/Instrumented Insole/Insole Molds.png'
 							style={firstPicStyle}/>
 					</div>
@@ -67,11 +69,13 @@ export default function InstrumentedInsole(props) {
 				<div className="row">
 					<div className="col-sm-3" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Rewiring idea'
 							src='project-assets/Instrumented Insole/Rewiring Idea.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-3" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Labview VI'
 							src='project-assets/Instrumented Insole/Labview VI.png'
 							style={firstPicStyle}/>
 					</div>
@@ -89,6 +93,7 @@ export default function InstrumentedInsole(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Walking COP vs Time'
 							src='project-assets/Instrumented Insole/Walking 2 COP vs Time.png'
 							style={secondPicStyle}/>
 					</div>

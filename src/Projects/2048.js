@@ -1,5 +1,3 @@
-import FullRowText from "../Components/FullRowText";
-
 export default function Agent2048(props) {
 	const firstRowStyle = {
 		backgroundColor: '#f3b27a'
@@ -46,9 +44,13 @@ export default function Agent2048(props) {
 			<div className="w-100 container-fluid">
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-3">
-						<img className="pt-4 pb-4 mx-auto d-block" src="project-assets/2048/2048 Game.png" style={firstPicStyle}/>
+						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='2038 game'
+							src="project-assets/2048/2048 Game.png"
+							style={firstPicStyle}/>
 					</div>
-					<div className="col text-center fs-4 fw-bold d-flex align-items-center" style={firstRowTextStyle}>
+					<div className="col text-center fs-4 fw-bold d-flex align-items-center"
+						style={firstRowTextStyle}>
 						<p>I made a bot to play this online game called 2048.
 						I had it choose actions based on two sets of rules: 
 						one that my friend and I came up with and one that it tried
@@ -56,7 +58,8 @@ export default function Agent2048(props) {
 					</div>
 				</div>
 				<div className="row" style={secRowStyle}>
-					<div className="col text-start fs-5 d-flex align-items-center pt-4" style={secRowTextStyle}>
+					<div className="col text-start fs-5 d-flex align-items-center pt-4"
+						style={secRowTextStyle}>
 						<p>When I was in high school, I used to play this game.
 						The way it works is you have a tile area and the goal is
 						to create a 2048 tile. You can press the left/right/up/down arrow keys,
@@ -68,12 +71,16 @@ export default function Agent2048(props) {
 						</p>
 					</div>
 					<div className="col-sm-4" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='https://thumbs.gfycat.com/ImpassionedShadyFlounder-small.gif' style={firstPicStyle}/>
+						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='2048 GIF'
+							src='https://thumbs.gfycat.com/ImpassionedShadyFlounder-small.gif'
+							style={firstPicStyle}/>
 					</div>
 				</div>
 				<div className="row" style={thirdRowStyle}>
 					<div className="col-sm-6">
 						<iframe className="pt-4 mx-auto pb-4 d-block"
+								title='2048 agent demo'
 								src='https://www.youtube.com/embed/H8oM8vUvROc'
 								style={thirdPicStyle}/>
 					</div>

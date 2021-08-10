@@ -1,4 +1,3 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 import FullRowImage from '../Components/FullRowImage.js';
@@ -9,18 +8,8 @@ export default function ME2110(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
 	const thirdPicStyle = {
 		height: '80vh',
-		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '60vh',
 		width: '100%'
 	};
 
@@ -28,7 +17,7 @@ export default function ME2110(props) {
 		<div>
 			<ProjectHeading>Autonomous Robot for Creative Decisions & Design Course</ProjectHeading>
 			<div className="w-100 container-fluid">
-				<FullRowImage src='project-assets/ME 2110/Final Bot.jpg' />
+				<FullRowImage src='project-assets/ME 2110/Final Bot.jpg' alt='Final robot' />
 				<FullRowText>
 				This was a team project-based course that involved making an autonomous robot
 				to compete in a game against three other teams. The theme was based on the
@@ -39,11 +28,13 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col-sm-6 d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Game Components'
 							src='project-assets/ME 2110/Game Components.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Game Layout'
 							src='project-assets/ME 2110/Game Layout.png'
 							style={firstPicStyle}/>
 					</div>
@@ -61,8 +52,9 @@ export default function ME2110(props) {
 					</div>
 					<div className="col-md-6" >
 						<iframe className="pt-4 mx-auto d-block"
-									src='https://www.youtube.com/embed/JA2bR0V3Q0k'
-									style={thirdPicStyle}/>
+								title='Initial car test'
+								src='https://www.youtube.com/embed/JA2bR0V3Q0k'
+								style={thirdPicStyle}/>
 					</div>
 				</div>
 				<FullRowText>
@@ -72,11 +64,13 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Car underside'
 							src='project-assets/ME 2110/Car Underside.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-md-6 mx-auto" >
 						<iframe className="pt-4 d-block"
+								title='Mousetraps prototyping'
 								src='https://www.youtube.com/embed/2vyeWknmdU8'
 								style={thirdPicStyle}/>
 					</div>
@@ -84,6 +78,7 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<iframe className="pt-4 d-block"
+								title='Decoy balls test'
 								src='https://www.youtube.com/embed/dpOEPTYuk9w'
 								style={thirdPicStyle}/>
 					</div>
@@ -109,6 +104,7 @@ export default function ME2110(props) {
 					</div>
 					<div className="col-sm-6" >
 						<iframe className="pt-4 d-block"
+								title='Flag prototyping'
 								src='https://www.youtube.com/embed/Mb1UJKg1ET4'
 								style={thirdPicStyle}/>
 					</div>
@@ -120,11 +116,13 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='In progress'
 							src='project-assets/ME 2110/In Progress.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-6" >
 						<iframe className="pt-4 d-block"
+								title='Multi robot testing'
 								src='https://www.youtube.com/embed/Ctt1OV1GK_0'
 								style={thirdPicStyle}/>
 					</div>
@@ -136,11 +134,13 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Final Bot'
 							src='project-assets/ME 2110/Final Bot.jpg'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-6">
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Final day setup'
 							src='project-assets/ME 2110/Final Day Setup.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -148,6 +148,7 @@ export default function ME2110(props) {
 				<div className="row">
 					<div className="col-md-8 mx-auto">
 						<iframe className="pt-4 d-block"
+								title='Competition'
 								src='https://www.youtube.com/embed/AGEf0dj2iKc'
 								style={thirdPicStyle}/>
 					</div>

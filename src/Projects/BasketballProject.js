@@ -1,4 +1,3 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 import FullRowImage from '../Components/FullRowImage.js';
@@ -31,6 +30,7 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Shu and I'
 							src='project-assets/Basketball Project/Shu and I.PNG'
 							style={firstPicStyle}/>
 					</div>
@@ -63,11 +63,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Original zone layout'
 							src='project-assets/Basketball Project/Original Zone layout.png'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Basketball court labeled'
 							src='project-assets/Basketball Project/Basketball court labeled.png'
 							style={secondPicStyle}/>
 					</div>
@@ -83,7 +85,8 @@ export default function BasketballProject(props) {
 				scrimmaging, or playing a game. We collected data on everything: passes,
 				turnovers, shots, free throws, etc.
 				</FullRowText>
-				<FullRowImage src='project-assets/Basketball Project/Initial Data Excel.png'/>
+				<FullRowImage src='project-assets/Basketball Project/Initial Data Excel.png'
+								alt='Initial data excel'/>
 				<FullRowText>
 				At the same time as we were collecting data, we were learning about various
 				statistical methods and how to use them to help answer our hypotheses. This
@@ -105,11 +108,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Game shot selection'
 							src='project-assets/Basketball Project/GameShotSelection.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Does practice make perfect?'
 							src='project-assets/Basketball Project/Does Practice Make Perfect.png'
 							style={firstPicStyle}/>
 					</div>
@@ -126,11 +131,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6 d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Initial player reports'
 							src='project-assets/Basketball Project/Initial Player Reports.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Player A report'
 							src='project-assets/Basketball Project/Player A.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -148,11 +155,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Team breakdown'
 							src='project-assets/Basketball Project/Team Breakdown.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Team decision-making breakdown'
 							src='project-assets/Basketball Project/Team Decision Making.png'
 							style={thirdPicStyle}/>
 					</div>
@@ -165,7 +174,8 @@ export default function BasketballProject(props) {
 				back and rewatch the footage we recorded to enter the data properly. We
 				decided to make a data input program to help us out.
 				</FullRowText>
-				<FullRowImage src='project-assets/Basketball Project/Data Input.png'/>
+				<FullRowImage src='project-assets/Basketball Project/Data Input.png'
+								alt='Data input'/>
 				<FullRowText>
 				By chance, I watched the movie Moneyball, about the revolution of data in
 				baseball. I still remember I couldn’t sleep that night. My mind was opened
@@ -182,16 +192,19 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Moneyball'
 							src='project-assets/Basketball Project/Moneyball.jpg'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Basketball on Paper'
 							src='project-assets/Basketball Project/Basketball on Paper.jpg'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Math behind moneyball'
 							src='project-assets/Basketball Project/Math Behind Moneyball.png'
 							style={firstPicStyle}/>
 					</div>
@@ -206,6 +219,7 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-5" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Monte carlo distributions'
 							src='project-assets/Basketball Project/Monte Carlo Distributions.png'
 							style={secondPicStyle}/>
 					</div>
@@ -218,7 +232,8 @@ export default function BasketballProject(props) {
 						</ol>
 					</div>
 				</div>
-				<FullRowImage src='project-assets/Basketball Project/Monte Carlo Sampling.png'/>
+				<FullRowImage src='project-assets/Basketball Project/Monte Carlo Sampling.png'
+								alt='Monte carlo sampling'/>
 				<FullRowText>
 				You get the idea. We can repeat these sorts of questions until some sort of
 				terminating condition for the drive – turnover or score. Then we can repeat
@@ -233,11 +248,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-8" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Monte carlo plays'
 							src='project-assets/Basketball Project/Monte Carlo Plays.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Monte carlo game results'
 							src='project-assets/Basketball Project/Monte Carlo Game Results.png'
 							style={firstPicStyle}/>
 					</div>
@@ -256,11 +273,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='App simulation'
 							src='project-assets/Basketball Project/App Simulation.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col mx-auto d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
+								title='Data input example'
 								src='https://www.youtube.com/embed/iNT_QeOxIjs'
 								style={fourthPicStyle}/>
 					</div>
@@ -277,11 +296,13 @@ export default function BasketballProject(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='District poster'
 							src='project-assets/Basketball Project/District Poster.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='ISEF poster'
 							src='project-assets/Basketball Project/ISEF Poster.JPG'
 							style={firstPicStyle}/>
 					</div>

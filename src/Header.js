@@ -1,4 +1,3 @@
-import { Link, NavLink } from 'react-router-dom';
 import MyLink from './MyLink.js';
 
 export default function Header(props) {

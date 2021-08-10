@@ -1,7 +1,5 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function ElectricVehicle(props) {
 	const firstPicStyle = {
@@ -16,11 +14,6 @@ export default function ElectricVehicle(props) {
 
 	const thirdPicStyle = {
 		height: '80vh',
-		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '60vh',
 		width: '100%'
 	};
 
@@ -46,16 +39,19 @@ export default function ElectricVehicle(props) {
 				<div className="row">
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='EV 2016 breadboard'
 							src='project-assets/Electric Vehicle/EV 2016 breadboard.jpg'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='EV 2016 protoboard'
 							src='project-assets/Electric Vehicle/EV 2016 protoboard.jpg'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='EV 2016'
 							src='project-assets/Electric Vehicle/EV 2016.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -71,11 +67,13 @@ export default function ElectricVehicle(props) {
 				<div className="row">
 					<div className="col mx-auto d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
+								title='Motor testing'
 								src='https://www.youtube.com/embed/OJ_fl8-jEPU'
 								style={thirdPicStyle}/>
 					</div>
 					<div className="col-md-4" >
 						<img className="pt-4 mx-auto d-block"
+							alt='EV 2016 v2 Frame'
 							src='project-assets/Electric Vehicle/EV 2016 v2 Frame.JPG'
 							style={secondPicStyle}/>
 					</div>
@@ -83,16 +81,19 @@ export default function ElectricVehicle(props) {
 				<div className="row">
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='EV 2016 v2 underside'
 							src='project-assets/Electric Vehicle/EV 2016 v2 Underside.JPG'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='EV 2016 v2 overall'
 							src='project-assets/Electric Vehicle/EV 2016 v2 Overall.JPG'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col-sm-6 d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
+								title='EV 2016 test'
 								src='https://www.youtube.com/embed/UHVh_QjFfiA'
 								style={thirdPicStyle}/>
 					</div>
@@ -108,11 +109,13 @@ export default function ElectricVehicle(props) {
 				<div className="row mb-4">
 					<div className="col-md-6" >
 						<img className="pt-4 mx-auto d-block"
+							alt='EV chassis'
 							src='project-assets/Electric Vehicle/EV Chassis.JPG'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col mx-auto d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
+								title='EV 2017 test'
 								src='https://www.youtube.com/embed/qkPnuEpzoS4'
 								style={thirdPicStyle}/>
 					</div>

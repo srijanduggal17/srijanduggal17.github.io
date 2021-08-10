@@ -17,22 +17,8 @@ export default function MechatronicsCube(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
-	const thirdPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
 	const secRowTextStyle = {
 		color: 'black'
-	};
-
-	const thirdRowTextStyle = {
-		color: 'white'
 	};
 
 	const fourthRowTextStyle = {
@@ -51,6 +37,7 @@ export default function MechatronicsCube(props) {
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-5">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='final prototype'
 							src="project-assets/Mechatronics Cube/Final Prototype.jpg"
 							style={firstPicStyle}/>
 					</div>
@@ -86,15 +73,19 @@ export default function MechatronicsCube(props) {
 					</div>
 					<div className="col-sm-8" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='free body diagrams'
 							src='project-assets/Mechatronics Cube/FreeBodyDiagrams.png'
 							style={firstPicStyle}/>
 					</div>
 				</div>
-				<FullRowImage src="project-assets/Mechatronics Cube/EquationOfMotion.png"/>
+				<FullRowImage 
+					alt='Equations of motion'
+					src="project-assets/Mechatronics Cube/EquationOfMotion.png"/>
 				<Subheading>Physical Design</Subheading>
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-4">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='initial design rendering'
 							src="project-assets/Mechatronics Cube/Initial Cube Render.JPG"
 							style={firstPicStyle}/>
 					</div>
@@ -128,7 +119,9 @@ export default function MechatronicsCube(props) {
 					inertia by a factor of K, but RPM and inertia are not. We tried to
 					pick a value near the inflection point of the RPM and inertia curve. 
 				</FullRowText>
-				<FullRowImage src='project-assets/Mechatronics Cube/Flywheel Inertia Motor Selection.png'/>
+				<FullRowImage
+					alt='flywheel inertia charts for motor selection'
+					src='project-assets/Mechatronics Cube/Flywheel Inertia Motor Selection.png'/>
 				<div className="row" style={secRowStyle}>
 					<div className="col text-start fs-5 d-flex align-items-center pt-4"
 						style={secRowTextStyle}>
@@ -146,6 +139,7 @@ export default function MechatronicsCube(props) {
 					</div>
 					<div className="col-sm-7" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='motor wiring diagram'
 							src='project-assets/Mechatronics Cube/Motor Wiring Diagram.png'
 							style={firstPicStyle}/>
 					</div>
@@ -158,24 +152,31 @@ export default function MechatronicsCube(props) {
 					was connected to the MSP432 over UART to communicate the sensor readings
 					to the MSP432.
 				</FullRowText>
-				<FullRowImage src='project-assets/Mechatronics Cube/Circuit Layout.png'/>
+				<FullRowImage
+					alt='circuit layout'
+					src='project-assets/Mechatronics Cube/Circuit Layout.png'/>
 				<FullRowText>
 					At a high level, the code structure is shown in the block diagram below.
 					The device has to sense the current angle of the cube frame, calculate
 					the moment required to balance the cube, and then command a speed to the
 					motor in order to create that moment.
 				</FullRowText>
-				<FullRowImage src='project-assets/Mechatronics Cube/Operating Principle.png'/>
+				<FullRowImage 
+					alt='operating principle'
+					src='project-assets/Mechatronics Cube/Operating Principle.png'/>
 				<Subheading>Controller Design and Implementation</Subheading>
 				<FullRowText>
 					Once we had the physical device and the electronic hardware chosen and built,
 					we started working on the controller design. First we found the transfer function
 					of the system, shown below.
 				</FullRowText>
-				<FullRowImage src='project-assets/Mechatronics Cube/Transfer Function.png'/>
+				<FullRowImage
+					alt='transfer function'
+					src='project-assets/Mechatronics Cube/Transfer Function.png'/>
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='system block diagram'
 							src="project-assets/Mechatronics Cube/System Block Diagram.png"
 							style={firstPicStyle}/>
 					</div>
@@ -208,6 +209,7 @@ export default function MechatronicsCube(props) {
 					</div>
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='code structure'
 							src="project-assets/Mechatronics Cube/Code Structure.jpg"
 							style={firstPicStyle}/>
 					</div>
@@ -215,6 +217,7 @@ export default function MechatronicsCube(props) {
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-6 mx-auto">
 						<iframe className="pt-4 d-block"
+								title='Cube demo'
 								src='https://www.youtube.com/embed/EDXmnW8xCU8'
 								style={fourthPicStyle}/>
 					</div>

@@ -1,7 +1,5 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function HackAThing(props) {
 	const firstPicStyle = {
@@ -9,19 +7,9 @@ export default function HackAThing(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
 	const thirdPicStyle = {
 		height: '80vh',
 		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '70vh',
-		width: '90%'
 	};
 
 	return (
@@ -37,16 +25,19 @@ export default function HackAThing(props) {
 				<div className="row">
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='V1 assembled'
 							src='project-assets/Hackathing/V1 Assembled.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='V2'
 							src='project-assets/Hackathing/V2.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='V3'
 							src='project-assets/Hackathing/V3.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -76,6 +67,7 @@ export default function HackAThing(props) {
 					</div>
 					<div className="col-sm-7 mx-auto d-flex align-items-center" >
 						<iframe className="pt-4 d-block"
+								title='Competition videos'
 								src='https://www.youtube.com/embed/SSj3Y5P7SvA'
 								style={thirdPicStyle}/>
 					</div>

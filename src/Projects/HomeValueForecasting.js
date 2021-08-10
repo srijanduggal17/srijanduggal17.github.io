@@ -1,7 +1,6 @@
 import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function HomeValueForecasting(props) {
 	const firstPicStyle = {
@@ -50,11 +49,13 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED state level data'
 							src="project-assets/Home Value Forecasting/FRED State Level Data.png"
 							style={secondPicStyle}/>
 					</div>
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED county level data'
 							src="project-assets/Home Value Forecasting/FRED County Level Data.png"
 							style={secondPicStyle}/>
 					</div>		
@@ -67,11 +68,13 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED states'
 							src="project-assets/Home Value Forecasting/FRED States.png"
 							style={thirdPicStyle}/>
 					</div>
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED county'
 							src="project-assets/Home Value Forecasting/FRED County.png"
 							style={thirdPicStyle}/>
 					</div>		
@@ -83,11 +86,13 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className='col-sm-5 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED County series'
 							src="project-assets/Home Value Forecasting/FRED County Series.png"
 							style={thirdPicStyle}/>
 					</div>
 					<div className='col-sm-7 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='FRED series'
 							src="project-assets/Home Value Forecasting/FRED Series.png"
 							style={thirdPicStyle}/>
 					</div>		
@@ -104,6 +109,7 @@ export default function HomeValueForecasting(props) {
 					</div>
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Series with county name'
 							src="project-assets/Home Value Forecasting/Series with County Name.png"
 							style={firstPicStyle}/>
 					</div>
@@ -111,6 +117,7 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Series aggregate'
 							src="project-assets/Home Value Forecasting/Series Aggregate.png"
 							style={firstPicStyle}/>
 					</div>
@@ -129,6 +136,7 @@ export default function HomeValueForecasting(props) {
 					</div>
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Choosing date range'
 							src="project-assets/Home Value Forecasting/Choosing Date Range.png"
 							style={firstPicStyle}/>
 					</div>
@@ -136,6 +144,7 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Choosing counties'
 							src="project-assets/Home Value Forecasting/Choosing Counties.png"
 							style={firstPicStyle}/>
 					</div>
@@ -166,6 +175,7 @@ export default function HomeValueForecasting(props) {
 					</div>
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Dataset'
 							src="project-assets/Home Value Forecasting/dataset.png"
 							style={firstPicStyle}/>
 					</div>
@@ -173,6 +183,7 @@ export default function HomeValueForecasting(props) {
 				<div className="row">
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Model comparison'
 							src="project-assets/Home Value Forecasting/model comparison.png"
 							style={secondPicStyle}/>
 					</div>
@@ -196,6 +207,7 @@ export default function HomeValueForecasting(props) {
 					</div>
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='time series tracking'
 							src="project-assets/Home Value Forecasting/time series tracking.png"
 							style={fourthPicStyle}/>
 					</div>

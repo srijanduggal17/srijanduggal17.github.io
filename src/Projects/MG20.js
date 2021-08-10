@@ -1,13 +1,7 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 
-export default function MachineDesign(props) {
-	const firstPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
+export default function MG20(props) {
 	const thirdPicStyle = {
 		height: '80vh',
 		width: '100%'
@@ -34,6 +28,7 @@ export default function MachineDesign(props) {
 				<div className="row">
 					<div className="col-sm-6">
 						<iframe className="pt-4 mx-auto pb-4 d-block"
+								title='Public points page demo'
 								src='https://www.youtube.com/embed/HPbhnyzTPLg'
 								style={thirdPicStyle}/>
 					</div>
@@ -59,6 +54,7 @@ export default function MachineDesign(props) {
 					</div>
 					<div className="col-sm-6">
 						<iframe className="pt-4 mx-auto pb-4 d-block"
+								title='Admin add points view'
 								src='https://www.youtube.com/embed/liITX_2FRbI'
 								style={thirdPicStyle}/>
 					</div>

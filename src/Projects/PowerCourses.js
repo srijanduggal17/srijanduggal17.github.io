@@ -4,31 +4,16 @@ import ProjectHeading from '../Components/ProjectHeading.js';
 import FullRowImage from '../Components/FullRowImage.js';
 
 export default function PowerCourses(props) {
-	const firstPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
-	const secondPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
 	const thirdPicStyle = {
 		height: '80vh',
 		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '70vh',
-		width: '90%'
 	};
 
 	return (
 		<div>
 			<ProjectHeading>Website for The Power Courses</ProjectHeading>
 			<div className="w-100 container-fluid">
-				<FullRowImage src='project-assets/Power Courses/Homepage.png'/>
+				<FullRowImage alt='homepage' src='project-assets/Power Courses/Homepage.png'/>
 				<FullRowText>
 				During the summers of 2017 and 2018, I worked as an ACT/SAT tutor at a local
 				business: The Power Courses. This was a 3-week long course that I went to as
@@ -50,12 +35,14 @@ export default function PowerCourses(props) {
 				href='https://thepowercourses.com/'>here</a>
 				</FullRowText>
 				<Subheading>Screenshots</Subheading>
-				<FullRowImage src='project-assets/Power Courses/Example Page.png'/>
-				<FullRowImage src='project-assets/Power Courses/Example Page ctnd.png'/>
+				<FullRowImage alt='example page' src='project-assets/Power Courses/Example Page.png'/>
+				<FullRowImage alt='example page ctnd'
+					src='project-assets/Power Courses/Example Page ctnd.png'/>
 				<Subheading>Demo</Subheading>
 				<div className="row">
 					<div className="col-sm-9 mx-auto d-flex align-items-center pb-4" >
 						<iframe className="pt-4 d-block"
+								title='website demo'
 								src='https://www.youtube.com/embed/3-BniMOYxaU'
 								style={thirdPicStyle}/>
 					</div>

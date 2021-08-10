@@ -22,6 +22,7 @@ export default function HipExoHardware(props) {
 				<div className="row">
 					<div className="col-sm-5" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Backpack printed'
 							src='project-assets/Hip Exo Hardware/Backpack Printed.png'
 							style={firstPicStyle}/>
 					</div>
@@ -44,11 +45,13 @@ export default function HipExoHardware(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Backpack CAD solidworks'
 							src='project-assets/Hip Exo Hardware/Backpack CAD SldWrks.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Backpack CAD'
 							src='project-assets/Hip Exo Hardware/Backpack CAD.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -75,21 +78,25 @@ export default function HipExoHardware(props) {
 				<div className="row">
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Old IMU on exo'
 							src='project-assets/Hip Exo Hardware/Old IMU on Exo.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Yost IMU'
 							src='project-assets/Hip Exo Hardware/Yost IMU.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='IMU holder CAD'
 							src='project-assets/Hip Exo Hardware/IMU Holder CAD.png'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='IMU holder v2'
 							src='project-assets/Hip Exo Hardware/IMU Holder v2 Printed.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -103,7 +110,10 @@ export default function HipExoHardware(props) {
 				<Subheading>C Frame Static Analysis</Subheading>
 				<div className="row">
 					<div className="col-sm-6" >
-						<img className="pt-4 mx-auto pb-4 d-block" src='project-assets/Hip Exo Hardware/C Frame Image.JPG' style={firstPicStyle}/>
+						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='C Frame'
+							src='project-assets/Hip Exo Hardware/C Frame Image.JPG'
+							style={firstPicStyle}/>
 					</div>
 					<div className="col text-start fs-5 d-flex align-items-center pt-4">
 						<p>

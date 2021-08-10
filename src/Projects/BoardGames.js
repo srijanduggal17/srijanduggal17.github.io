@@ -1,19 +1,8 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
 import FullRowImage from '../Components/FullRowImage.js';
 
 export default function BoardGames(props) {
-	const firstPicStyle = {
-		maxHeight: '60vh',
-		maxWidth: '100%'
-	};
-
-	const secondPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
 	const thirdPicStyle = {
 		maxHeight: '85vh',
 		maxWidth: '100%'
@@ -39,6 +28,7 @@ export default function BoardGames(props) {
 				<div className="row">
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Reddit board game forum'
 							src="project-assets/Board Games/Reddit.png"
 							style={thirdPicStyle}/>
 					</div>
@@ -73,6 +63,7 @@ export default function BoardGames(props) {
 					</div>
 					<div className="col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Camel Camel Camel website'
 							src="project-assets/Board Games/CCC.png"
 							style={fourthPicStyle}/>
 					</div>
@@ -80,6 +71,7 @@ export default function BoardGames(props) {
 				<div className="row">
 					<div className="col-sm-7">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Top 100 from board game geek'
 							src="project-assets/Board Games/BGG Top 100.png"
 							style={thirdPicStyle}/>
 					</div>
@@ -111,7 +103,8 @@ export default function BoardGames(props) {
 				set up a chatbot that you can use to programmatically send messages to a group.
 				See the figure below for the overall system architecture diagram.
 				</FullRowText>
-				<FullRowImage src='project-assets/Board Games/Architecture.png'/>
+				<FullRowImage src='project-assets/Board Games/Architecture.png'
+								alt='Architecture'/>
 				<FullRowText>
 				Overall this was a lot of fun! It was nice to make something useful that
 				my friend cared about, and get practice with a real-time system using AWS and

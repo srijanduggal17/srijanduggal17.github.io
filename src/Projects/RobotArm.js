@@ -1,7 +1,6 @@
 import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function RobotArm(props) {
 	const firstPicStyle = {
@@ -43,11 +42,13 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-md-5" >
 						<img className="pt-4 mx-auto d-block"
+							alt='2016 robot arm mechanical device'
 							src='project-assets/Robot Arm/Robot Arm Skin 2016.JPG'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='2016 robot arm end effector'
 								src='https://www.youtube.com/embed/nmXwpL8YJj4'
 								style={fourthPicStyle}/>
 					</div>
@@ -65,11 +66,13 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='2016 robot arm electronics'
 								src='https://www.youtube.com/embed/F90sRTuF-SY'
 								style={fourthPicStyle}/>
 					</div>
 					<div className="col-md-5" >
 						<img className="pt-4 mx-auto d-block"
+							alt='2016 final robot arm'
 							src='project-assets/Robot Arm/Robot Arm 2016.JPG'
 							style={secondPicStyle}/>
 					</div>
@@ -87,16 +90,19 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='Stepper motor mount 1'
 							src='project-assets/Robot Arm/Stepper Attachment.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='Stepper motor mount 2'
 							src='project-assets/Robot Arm/Stepper Attachment 2.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='Stepper motor base control'
 								src='https://www.youtube.com/embed/_1AaNBvEM7Q'
 								style={fourthPicStyle}/>
 					</div>
@@ -111,16 +117,19 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='end effector T'
 							src='project-assets/Robot Arm/End Effector T.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='end effector T with motor'
 							src='project-assets/Robot Arm/End Effector T with Motor.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='end effector T wiring'
 							src='project-assets/Robot Arm/End Effector T Wiring.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -133,16 +142,19 @@ export default function RobotArm(props) {
 				<div className="row ml-auto">
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis attachment v1'
 							src='project-assets/Robot Arm/Vertical Axis Attachment v1.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis'
 							src='project-assets/Robot Arm/Vertical Axis.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis spool motor'
 							src='project-assets/Robot Arm/Vertical Axis Spool Motor.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -158,16 +170,19 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis spool attachment'
 							src='project-assets/Robot Arm/Vertical Axis Spool Attachment.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis spool and stepper'
 							src='project-assets/Robot Arm/Vertical Axis Spool and Stepper.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='vertical axis in motion'
 								src='https://www.youtube.com/embed/nPHlaa02rLk'
 								style={fourthPicStyle}/>
 					</div>
@@ -183,16 +198,19 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='radial axis pvc holder'
 							src='project-assets/Robot Arm/Radial Axis PVC Holder.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='radial axis end pulley'
 							src='project-assets/Robot Arm/Radial Axis End Pulley.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-4 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='radial axis in progress'
 							src='project-assets/Robot Arm/Radial Axis Shu Working.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -200,11 +218,13 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-5 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='radial axis idea'
 							src='project-assets/Robot Arm/Radial Axis Idea.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='radial axis testing'
 								src='https://www.youtube.com/embed/7FDt0CleR14'
 								style={fourthPicStyle}/>
 					</div>
@@ -216,16 +236,19 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='vertical axis holder with supports'
 							src='project-assets/Robot Arm/Vertical Axis Holder with Supports.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col-sm-3 d-flex align-items-center" >
 						<img className="pt-4 mx-auto d-block"
+							alt='radial axis overview'
 							src='project-assets/Robot Arm/Radial Axis Overview.JPG'
 							style={firstPicStyle}/>
 					</div>
 					<div className="col d-flex align-items-center" >
 						<iframe className="pt-4 d-block mx-auto"
+								title='radial axis testing v2'
 								src='https://www.youtube.com/embed/a4SEc4N7se0'
 								style={fourthPicStyle}/>
 					</div>
@@ -233,6 +256,7 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='electronics breadboarding'
 							src='project-assets/Robot Arm/Electronics Breadboarding.JPG'
 							style={firstPicStyle}/>
 					</div>
@@ -247,6 +271,7 @@ export default function RobotArm(props) {
 				<div className="row">
 					<div className="col">
 						<iframe className="pt-4 d-block mx-auto"
+								title='overall testing'
 								src='https://www.youtube.com/embed/0olJFrZW1fQ'
 								style={thirdPicStyle}/>
 					</div>

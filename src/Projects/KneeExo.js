@@ -31,15 +31,6 @@ export default function KneeExo(props) {
 		color: 'black'
 	};
 
-	// const thirdPicStyle = {
-	// 	height: '80vh',
-	// 	width: '100%'
-	// };
-
-	const thirdRowTextStyle = {
-		color: 'white'
-	};
-
 	const fourthRowTextStyle = {
 		color: 'black'
 	};
@@ -51,6 +42,7 @@ export default function KneeExo(props) {
 				<div className="row" style={firstRowStyle}>
 					<div className="col-sm-3">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Knee exo'
 							src="project-assets/Knee Exo/Knee Exo.jpg"
 							style={firstPicStyle}/>
 					</div>
@@ -78,6 +70,7 @@ export default function KneeExo(props) {
 					</div>
 					<div className="col-sm-4" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Epic lab logo'
 							src='project-assets/Knee Exo/Epic Logo.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -85,6 +78,7 @@ export default function KneeExo(props) {
 				<div className="row" style={secRowStyle}>
 					<div className="col-sm-5">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Nextflex device'
 							src="project-assets/Knee Exo/NextFlex Device.png"
 							style={firstPicStyle}/>
 					</div>
@@ -118,6 +112,7 @@ export default function KneeExo(props) {
 					</div>
 					<div className="col-sm-6 d-flex align-items-center">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Nextflex handle'
 							src="project-assets/Knee Exo/NextFlex Handle.png"
 							style={firstPicStyle}/>
 					</div>
@@ -126,6 +121,7 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className="col-sm-6 d-flex align-items-center">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Nextflex hardware'
 							src="project-assets/Knee Exo/NextFlex Hardware.png"
 							style={thirdPicStyle}/>
 					</div>
@@ -150,16 +146,19 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className='col-sm-5 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Raspberry Pi shield schematic'
 							src="project-assets/Knee Exo/RPi Shield Schematic.png"
 							style={secondPicStyle}/>
 					</div>
 					<div className='col-sm-4 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Raspberry Pi shield layout'
 							src="project-assets/Knee Exo/RPi Shield Layout.png"
 							style={secondPicStyle}/>
 					</div>
 					<div className='col-sm-3 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Raspberry Pi shield prototype'
 							src="project-assets/Knee Exo/RPi Shield Prototype.jpg"
 							style={secondPicStyle}/>
 					</div>
@@ -176,11 +175,13 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className='col-sm-6 d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Raspberry Pi shield'
 							src="project-assets/Knee Exo/RPi Shield.png"
 							style={secondPicStyle}/>
 					</div>
 					<div className='col d-flex align-items-center'>
 						<img className="pt-4 pb-4 mx-auto d-block" 
+							alt='Raspberry Pi shield and case'
 							src="project-assets/Knee Exo/RPi Shield and Case.jpg"
 							style={secondPicStyle}/>
 					</div>
@@ -194,8 +195,8 @@ export default function KneeExo(props) {
 				advantages and how to use it. A diagram for the ROS nodes we used, as well
 				as a state transition diagram for the device are shown below.
 				</FullRowText>
-				<FullRowImage src="project-assets/Knee Exo/State Machine.png"/>
-				<FullRowImage src="project-assets/Knee Exo/ROS Nodes.png"/>
+				<FullRowImage src="project-assets/Knee Exo/State Machine.png" alt='State Machine'/>
+				<FullRowImage src="project-assets/Knee Exo/ROS Nodes.png" alt='ROS Nodes'/>
 				<Subheading>Proportional Myoelectric Controller Implementation</Subheading>
 				<FullRowText>
 				The actual controller that determined the commanded assistance torque was a
@@ -213,6 +214,7 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className="mx-auto col-sm-6">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Controller Equations'
 							src="project-assets/Knee Exo/Controller Eqn.png"
 							style={firstPicStyle}/>
 					</div>
@@ -224,6 +226,7 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Controller Offline performance'
 							src="project-assets/Knee Exo/Controller Offline.png"
 							style={secondPicStyle}/>
 					</div>
@@ -256,11 +259,13 @@ export default function KneeExo(props) {
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Encoder vs time'
 							src="project-assets/Knee Exo/Encoder vs Time.png"
 							style={secondPicStyle}/>
 					</div>
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Threshold example'
 							src="project-assets/Knee Exo/Threshold Ex.png"
 							style={secondPicStyle}/>
 					</div>

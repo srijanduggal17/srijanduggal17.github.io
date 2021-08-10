@@ -1,7 +1,6 @@
 import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function LocAgGPEst(props) {
 	const firstPicStyle = {
@@ -9,19 +8,9 @@ export default function LocAgGPEst(props) {
 		maxWidth: '100%'
 	};
 
-	const secondPicStyle = {
-		maxHeight: '80vh',
-		maxWidth: '100%'
-	};
-
 	const thirdPicStyle = {
 		height: '80vh',
 		width: '80%'
-	};
-
-	const fourthPicStyle = {
-		height: '70vh',
-		width: '90%'
 	};
 
 	return (
@@ -42,6 +31,7 @@ export default function LocAgGPEst(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Gait cycle'
 							src='project-assets/Loc Agnostic GP Est/GaitCycle.jpg'
 							style={firstPicStyle}/>
 					</div>
@@ -82,6 +72,7 @@ export default function LocAgGPEst(props) {
 					</div>
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Torque profiles'
 							src='project-assets/Loc Agnostic GP Est/Torque Profiles.png'
 							style={firstPicStyle}/>
 					</div>
@@ -104,6 +95,7 @@ export default function LocAgGPEst(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Exo and terrain park'
 							src='project-assets/Loc Agnostic GP Est/Exo and Terrain Park.png'
 							style={firstPicStyle}/>
 					</div>
@@ -121,6 +113,7 @@ export default function LocAgGPEst(props) {
 				<div className="row">
 					<div className="col">
 						<img className="pt-4 pb-4 mx-auto d-block"
+							alt='Time series results'
 							src='project-assets/Loc Agnostic GP Est/Time Series Results.png'
 							style={thirdPicStyle}/>
 					</div>

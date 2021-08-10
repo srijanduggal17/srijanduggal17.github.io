@@ -1,27 +1,10 @@
-import Subheading from '../Components/Subheading.js';
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
-import FullRowImage from '../Components/FullRowImage.js';
 
 export default function EWBUganda(props) {
-	const firstPicStyle = {
-		maxHeight: '70vh',
-		maxWidth: '100%'
-	};
-
 	const secondPicStyle = {
 		maxHeight: '80vh',
 		maxWidth: '100%'
-	};
-
-	const thirdPicStyle = {
-		height: '80vh',
-		width: '100%'
-	};
-
-	const fourthPicStyle = {
-		height: '70vh',
-		width: '90%'
 	};
 
 	return (
@@ -48,11 +31,13 @@ export default function EWBUganda(props) {
 				<div className="row">
 					<div className="col-sm-6" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Large region surface plot'
 							src='project-assets/EWB Uganda/LargeRegionSurfInterp.png'
 							style={secondPicStyle}/>
 					</div>
 					<div className="col" >
 						<img className="pt-4 mx-auto pb-4 d-block"
+							alt='Oloo region topographical map'
 							src='project-assets/EWB Uganda/OlooRegionBoreholeZeroTop.png'
 							style={secondPicStyle}/>
 					</div>
