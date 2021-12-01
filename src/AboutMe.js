@@ -44,7 +44,7 @@ export default function AboutMe(props) {
 						<br></br>
 						<br></br>
 						Let's get in touch! Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.
-						See my resume <a href='Resume.pdf'>here</a>.
+						See my resume <a href='Dec 2021 Resume.pdf'>here</a>.
 						<a className="px-2" href='https://github.com/srijanduggal17'>
 							<img alt='github logo' width='7%' src='Github Logo.png'/></a>
 						<a className="px-2" href='https://www.linkedin.com/in/srijan-duggal-667b1b14b/'>
