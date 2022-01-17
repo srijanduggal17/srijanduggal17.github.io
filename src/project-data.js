@@ -18,9 +18,19 @@ import BoardGames from './Projects/BoardGames.js';
 import BasketballProject from './Projects/BasketballProject.js';
 import MechatronicsCube from './Projects/MechatronicsCube.js';
 import ControlsCube from './Projects/ControlsCube.js';
+import FirstIoT from './Projects/FirstIoT.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
+	{
+		imgPath: 'First IoT.jpg',
+		title: 'First IoT Project',
+		desc: 'Proof-of-Concept of interfacing with hardware through the internet',
+		timeline: 'Jan 2022',
+		skills: ['IoT', 'networking'],
+		projectURL: 'firstiot',
+		projectPage: <FirstIoT />
+	},
 	{
 		imgPath: 'Control Cube.jpg',
 		title: 'Control Moment Gyroscope Balancing Cube',
