@@ -31,10 +31,10 @@ export default function AboutMe(props) {
 				</div>
 				<div className="col text-start fs-5 d-flex mx-auto align-items-center pt-4">
 					<p>
-						My name is Srijan Duggal. I'm an avid learner and love creating things
-						(hardware and software). I want to use my skills and my drive to help
-						others. I'm a Mechanical Engineer by profession, but my passion for
-						learning has led me to explore a variety of additional skillsets.
+						My name is Srijan Duggal. I'm a robotics software engineer, an avid learner,
+						and I love bringing hardware to life. I love working with others and I want
+						to use my skills and my drive to leave the world a little better than I found
+						it.
 						<br></br>
 						<br></br>
 						<Link to="/projects" style={linkStyle}>
@@ -44,7 +44,7 @@ export default function AboutMe(props) {
 						<br></br>
 						<br></br>
 						Let's get in touch! Contact me at <span className="fw-bold">srijanduggal17@gmail.com</span>.
-						See my resume <a href='Dec 2021 Resume.pdf'>here</a>.
+						See my resume <a href='June 2025 Resume.pdf'>here</a>.
 						<a className="px-2" href='https://github.com/srijanduggal17'>
 							<img alt='github logo' width='7%' src='Github Logo.png'/></a>
 						<a className="px-2" href='https://www.linkedin.com/in/srijan-duggal-667b1b14b/'>
