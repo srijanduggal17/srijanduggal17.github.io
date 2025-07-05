@@ -19,6 +19,7 @@ import BasketballProject from './Projects/BasketballProject.js';
 import MechatronicsCube from './Projects/MechatronicsCube.js';
 import ControlsCube from './Projects/ControlsCube.js';
 import FirstIoT from './Projects/FirstIoT.js';
+import ShippingProject from './Projects/ShippingProject.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
@@ -30,6 +31,15 @@ export const projectInfo = [
 		skills: ['IoT', 'networking'],
 		projectURL: 'firstiot',
 		projectPage: <FirstIoT />
+	},
+	{
+		imgPath: 'ShippingProject.jpg',
+		title: 'Live Shipping Rates Backend',
+		desc: 'Live Shipping Rates provider for small business',
+		timeline: 'Feb 2021',
+		skills: ['AWS', 'backend'],
+		projectURL: 'shippingproject',
+		projectPage: <ShippingProject />
 	},
 	{
 		imgPath: 'Control Cube.jpg',
