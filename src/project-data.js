@@ -20,9 +20,19 @@ import MechatronicsCube from './Projects/MechatronicsCube.js';
 import ControlsCube from './Projects/ControlsCube.js';
 import FirstIoT from './Projects/FirstIoT.js';
 import ShippingProject from './Projects/ShippingProject.js';
+import CustomerGeographyAnalysis from './Projects/CustomerGeography.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
+	{
+		imgPath: 'CustomerLocation.png',
+		title: 'Customer Geography Analysis',
+		desc: 'Geographic Data Visualization for Direct-to-Consumer Small Business',
+		timeline: 'May 2023',
+		skills: ['visualization'],
+		projectURL: 'ordermapviz',
+		projectPage: <CustomerGeographyAnalysis />
+	},
 	{
 		imgPath: 'First IoT.jpg',
 		title: 'First IoT Project',

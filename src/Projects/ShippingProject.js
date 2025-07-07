@@ -13,11 +13,17 @@ export default function ShippingProject(props) {
         maxWidth: '100%'
     };
 
+	const firstRowStyle = {
+		backgroundColor: '#96bf48',
+        color: 'white',
+        fontWeight: 'bold'
+	};
+
     return (
         <div>
             <ProjectHeading>Live Shipping Rates Provider</ProjectHeading>
             <div className="w-100 container-fluid">
-                <FullRowText>
+                <FullRowText style={firstRowStyle}>
                 A friend of mine has a small manufacturing business and they were
                 using Shopify for their website and order fulfillment backend.
                 They had a few problems related to shipping: they could only offer
