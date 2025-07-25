@@ -21,9 +21,19 @@ import ControlsCube from './Projects/ControlsCube.js';
 import FirstIoT from './Projects/FirstIoT.js';
 import ShippingProject from './Projects/ShippingProject.js';
 import CustomerGeographyAnalysis from './Projects/CustomerGeography.js';
+import GlueMachine from './Projects/GlueMachine.js';
 
 //Props for ProjectThumbnail
 export const projectInfo = [
+	{
+		imgPath: 'Glue Machine.png',
+		title: 'Gluing Machine Linkage Dynamics',
+		desc: 'Finding required torque for desired kinematic profile',
+		timeline: 'Aug 2024',
+		skills: ['dynamic modeling', 'lagrange\'s method'],
+		projectURL: 'gluemachine',
+		projectPage: <GlueMachine />
+	},
 	{
 		imgPath: 'CustomerLocation.png',
 		title: 'Customer Geography Analysis',
