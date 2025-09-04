@@ -1,5 +1,6 @@
 import FullRowText from '../Components/FullRowText.js';
 import ProjectHeading from '../Components/ProjectHeading.js';
+import Subheading from '../Components/Subheading.js';
 import FullRowImage from '../Components/FullRowImage.js';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
@@ -24,6 +25,7 @@ export default function GlueMachine(props) {
     return (
         <div>
             <ProjectHeading>Gluing Machine Linkage Dynamics</ProjectHeading>
+            <Subheading>Background</Subheading>
             <div className="w-100 container-fluid">
                 <FullRowText>
                 A friend of mine does small-scale manufacturing and he was upgrading
@@ -87,6 +89,7 @@ export default function GlueMachine(props) {
                             style={fourthPicStyle}/>
                     </div>
                 </div>
+                <Subheading>Inverse Kinematics</Subheading>
                 <FullRowText>
                     To get approximately a constant horizontal velocity motion
                     at the glue nozzle, we want the angular velocity of the glue
@@ -143,6 +146,21 @@ export default function GlueMachine(props) {
                             style={fourthPicStyle}/>
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col text-start fs-5 d-flex align-items-center">
+                        <p>
+                        Then I did a little animation to make sure things all
+                        made sense so far.
+                        </p>
+                    </div>
+                    <div className="col-sm-8">
+                        <img className="pt-4 pb-4 mx-auto d-block"
+                            alt='Animation'
+                            src="project-assets/Glue Machine/animation.gif"
+                            style={fourthPicStyle}/>
+                    </div>
+                </div>
+                <Subheading>Inverse Dynamics</Subheading>
             </div>
         </div>
     );
